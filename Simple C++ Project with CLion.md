@@ -1,0 +1,3 @@
+- Create a new C++ Project using CLion
+- Choose C++ Executable
+-  use `File` >`Reload CMake Project` to reload [[CMake]] project
