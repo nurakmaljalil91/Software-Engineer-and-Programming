@@ -66,3 +66,8 @@ WITH moved_rows AS (
 INSERT INTO public."Claims" --specify columns if necessary  
 SELECT DISTINCT * FROM moved_rows;
 ```
+
+## Backup data
+
+- [[Copy all data from tables to csv]]
+
