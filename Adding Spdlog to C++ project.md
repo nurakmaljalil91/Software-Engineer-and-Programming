@@ -11,12 +11,15 @@
 
 Copy the include [folder](https://github.com/gabime/spdlog/tree/v1.x/include/spdlog) to your build tree and use a C++11 compiler.
 
+> NOTE:
+> If you using CLion Mingw, set CLion Mingw path to the environment variable first before build the spdlog
+
 #### Compiled version (recommended - much faster compile times)
 
 ```shell
 $ git clone https://github.com/gabime/spdlog.git
 $ cd spdlog 
-$ cmake -H. -B_builds -DCMAKE_INSTALL_PREFIX="C:\Users\User\Developments\SharkCardGame\vendors\spdlog" -G "MinGW Makefiles" -DCMAKE_CXX_STANDARD=17
+$ cmake -B_builds -DCMAKE_INSTALL_PREFIX="C:\Users\User\Developments\SharkCardGame\vendors\spdlog"  -G "MinGW Makefiles" -DCMAKE_CXX_STANDARD=17
 $ cmake --build _builds --target install
 ```
 
@@ -56,11 +59,14 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(ENTT vendors/entt)  
   
 # set spdlog path  
-if (NOT TARGET spdlog)  
-    # Stand-alone build  
-    set(spdlog_DIR vendors/spdlog/include)  
-    find_package(spdlog REQUIRED)  
-endif ()  
+set(spdlog_PATH vendors/spdlog)  
+include_directories(${spdlog_PATH}/include)  
+link_directories(${spdlog_PATH}/lib)  
+  
+# Set CMAKE_PREFIX_PATH to include spdlog_DIR  
+set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} ${spdlog_PATH})  
+  
+find_package(spdlog REQUIRED)
   
 add_executable(
 		SharkCardGame 
