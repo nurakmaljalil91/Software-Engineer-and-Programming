@@ -70,4 +70,8 @@ SELECT DISTINCT * FROM moved_rows;
 ## Backup data
 
 - [[Copy all data from tables to csv]]
+### Optimize Data
+
+- [[Optimize the Query Performances]]
+- [[Create Partition Table]] 
 
