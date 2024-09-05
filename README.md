@@ -51,9 +51,13 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - Jest Testing framework for JavaScript.
 ## Cloud Services
 
+- Digital Ocean droplets
 - AWS Amazon Web Services for cloud computing.
 - Azure Microsoft's cloud computing service.
 - Google Cloud Platform (GCP) Another major cloud computing service.
+
+## Operating Systems
+- [[Ubuntu Server]].
 ## Security
 
 - OWASP Open Web Application Security Project guidelines.

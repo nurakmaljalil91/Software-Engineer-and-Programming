@@ -29,6 +29,10 @@ psql -U postgres ruldb < backup.sql
 "C:\Program Files\PostgreSQL\16\bin\psql" -U postgres ruldb < ruldb-backup-2023-09-04.sql
 ```
 
+```bash
+psql -U postgres -h 139.59.249.124 tvetdb < backup.sql
+```
+
 - Enter the database user password
 
 > Warning ! Don't use [[PowerShell]] to do this, just do [[CMD]]

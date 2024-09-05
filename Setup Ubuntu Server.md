@@ -152,9 +152,3 @@ services:
             - '8087:80'
         image: 'datalust/seq:latest'
 ```
-
-## Deploy Web API
-
-```yml
-
-```
