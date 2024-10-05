@@ -77,6 +77,7 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - JIRA Issue and project tracking software.
 - Confluence Collaboration and wiki tool.
 - [[Changelog Template]] for writing changelog
+- [[README Template]] for writing project [[README]]
 ## Notes 
 
 - Keep this vault organized by regularly updating and reviewing the content. 
