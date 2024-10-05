@@ -6,8 +6,8 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - [[C++]] A powerful, high-performance programming language used for system/software development and game programming.
 - [[Python]] A versatile, high-level programming language known for its readability and wide range of applications, from web development to data science.
 - [[CSharp]] (C#) A modern, object-oriented programming language developed by Microsoft, widely used for building Windows applications and games with Unity.
-- JavaScript/TypeScript Popular for web development.
-- Java Widely used for enterprise applications.
+- [[JavaScript]]/[[TypeScript]] Popular for web development.
+- [[Java]] Widely used for enterprise applications.
 - Go Known for its performance and simplicity in concurrent programming.
 - Rust Valued for memory safety and performance.
 ## Programming Tools
@@ -16,7 +16,7 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - [[CMake]] A cross-platform tool that automates the build process for software projects.
 - [[Neovim]] A highly configurable text editor for efficient coding, an extension of Vim.
 - Visual Studio Code Popular code editor with extensive extensions.
-- Docker Compose For defining and running multi-container Docker applications.
+- [[Docker]] Compose For defining and running multi-container Docker applications.
 - Jenkins Continuous Integration and Continuous Deployment tool.
 - Ansible For automation and configuration management.
 - Terraform Infrastructure as Code tool for provisioning cloud resources.
@@ -24,7 +24,7 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 
 - React A JavaScript library for building user interfaces.
 - Vue.js A progressive JavaScript framework for building UIs.
-- Angular A platform for building mobile and desktop web applications.
+- [[Angular]] A platform for building mobile and desktop web applications.
 - Express.js Web framework for Node.js.
 - GraphQL A query language for your API.
 ## Web Development
@@ -32,6 +32,9 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - [[Docker]] A platform for developing, shipping, and running applications inside lightweight, portable containers.
 - [[Nginx]] A high-performance web server and reverse proxy server used for load balancing and serving static content.
 - [[EF Core]] Entity Framework Core, an object-relational mapper (ORM) for .NET, which enables developers to work with a database using .NET objects.
+## Web Development Architectures
+
+- [[Micro frontend]]
 ## Databases
 
 - [[PostgreSQL]] An open-source relational database management system known for its robustness, scalability, and support for advanced SQL features.
@@ -73,6 +76,7 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - Markdown Lightweight markup language for creating formatted text using a plain-text editor.
 - JIRA Issue and project tracking software.
 - Confluence Collaboration and wiki tool.
+- [[Changelog Template]] for writing changelog
 ## Notes 
 
 - Keep this vault organized by regularly updating and reviewing the content. 
