@@ -27,6 +27,12 @@ Use [kicstart.nvim](https://github.com/nvim-lua/kickstart.nvim) to easily setup 
 git clone https://github.com/nvim-lua/kickstart.nvim.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 
+For [[Ubuntu]], use this command
+
+```bash
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
 The other way to do this is by go to [[Neovim]] configuration folder and copy the content of `init.lua`
 
 ```bash

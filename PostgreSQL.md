@@ -13,7 +13,7 @@ pg_dump -U postgres -h 159.65.130.195 -p 5432 ruldb > backup.sql
 - In [[Windows]]
 
 ```powershell
-"C:\Program Files\PostgreSQL\16\bin\pg_dump" -U postgres -h 159.65.130.195 -p 5432 ruldb > ruldb-backup-2023-09-04.sql
+"C:\Program Files\PostgreSQL\16\bin\pg_dump" -U postgres -h 139.59.127.66 -p 5432 ruldb > ruldb-backup-2023-09-04.sql
 ```
 
 - Enter the database user password
@@ -71,6 +71,28 @@ INSERT INTO public."Claims" --specify columns if necessary
 SELECT DISTINCT * FROM moved_rows;
 ```
 
+## Query by month and year
+
+```sql
+SELECT * FROM public."Claims" 
+	WHERE "UserName"='Q104299' 
+	AND EXTRACT(YEAR FROM "CompleteDate") = 2024 
+	AND EXTRACT(MONTH FROM "CompleteDate") = 12;
+```
+
+## Query Duplicate data
+
+```sql
+SELECT *
+FROM public."Staffs"
+WHERE "UserName" IN (
+    SELECT "UserName"
+    FROM public."Staffs"
+    GROUP BY "UserName"
+    HAVING COUNT(*) > 1
+)
+ORDER BY "UserName", "Id" ASC;
+```
 ## Backup data
 
 - [[Copy all data from tables to csv]]

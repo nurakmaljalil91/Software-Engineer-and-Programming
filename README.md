@@ -8,8 +8,8 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - [[CSharp]] (C#) A modern, object-oriented programming language developed by Microsoft, widely used for building Windows applications and games with Unity.
 - [[JavaScript]]/[[TypeScript]] Popular for web development.
 - [[Java]] Widely used for enterprise applications.
-- Go Known for its performance and simplicity in concurrent programming.
-- Rust Valued for memory safety and performance.
+- [[Go]] Known for its performance and simplicity in concurrent programming.
+- [[Rust]] Valued for memory safety and performance.
 ## Programming Tools
 
 - [[Git]] A distributed version control system for tracking changes in source code during software development.
@@ -60,7 +60,10 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - Google Cloud Platform (GCP) Another major cloud computing service.
 
 ## Operating Systems
+- [[Windows]]
 - [[Ubuntu Server]].
+- [[Linux]]
+- [[WSL]]
 ## Security
 
 - OWASP Open Web Application Security Project guidelines.
