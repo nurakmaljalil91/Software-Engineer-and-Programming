@@ -23,6 +23,7 @@ g++ main.cpp -o main
 - [[Simple C++ Project with CLion]]
 ### Creating Libraries in C++
 
+- [[Different Between Shared and Dynamic Library]]
 - [[Create a Shared Library]]
 ## Adding Libraries to C++ Project
 
