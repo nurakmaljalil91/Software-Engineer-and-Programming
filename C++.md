@@ -30,6 +30,7 @@ g++ main.cpp -o main
 - [[Adding Spdlog to C++ project]]
 - [[Adding EnTT to C++ project]]
 - [[Adding SDL 2 to C++ Project]]
+- [[Adding ChaiScript to C++ Project]]
 ## Algorithm
 
 - [[Bubble Sort in C++]]
