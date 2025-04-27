@@ -76,15 +76,15 @@ sudo docker run hello-world
 Create directory in `home` called `postgresql`
 
 ```bash
-mkdir /home/postgresql
+mkdir ~/home/postgresql
 ```
 
 Create another 3 directories inside `/home/postgresql`
 
 ```bash
-mkdir /home/postgresql/data
-mkdir /home/postgresql/conf
-mkdir /home/postgresql/copy
+mkdir ~/home/postgresql/data
+mkdir ~/home/postgresql/conf
+mkdir ~/home/postgresql/copy
 ```
 
 For Bitnami container make sure to give permission and ownership for volume data
