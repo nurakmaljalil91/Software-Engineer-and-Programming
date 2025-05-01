@@ -260,6 +260,20 @@ Here are some common patterns used in `.gitignore` files:
 - `build/` - ignores the entire `build` directory.
 - `secret.txt` - ignores a specific file named `secret.txt`.
 - `*.class` - ignores all files ending in `.class` (useful for [[Java]] projects).
+
+## See All Branches
+
+To see all branches
+
+```bash
+git branch -r
+```
+
+To see all branches in remotes
+
+```bash
+git branch -r -v
+```
 ## Conclusion
 
 This tutorial has covered the basic workflow of using [[Git]] for version control, including installing [[Git]], configuring it, creating and initializing a repository, adding and committing changes, working with remote repositories, branching, and merging. With these basics, you can start using [[Git]] to manage your projects and collaborate with others effectively.
