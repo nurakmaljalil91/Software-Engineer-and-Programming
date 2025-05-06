@@ -80,6 +80,14 @@ SELECT * FROM public."Claims"
 	AND EXTRACT(MONTH FROM "CompleteDate") = 12;
 ```
 
+```sql
+SELECT * FROM public."Claims" 
+	WHERE "UserName" = 'Q105320'
+	AND EXTRACT(YEAR FROM "CompleteDate") = 2025 
+	AND EXTRACT(MONTH FROM "CompleteDate") = 2
+ORDER BY "CreatedDate" DESC LIMIT 100;
+```
+
 ## Query Duplicate data
 
 ```sql
@@ -92,6 +100,17 @@ WHERE "UserName" IN (
     HAVING COUNT(*) > 1
 )
 ORDER BY "UserName", "Id" ASC;
+```
+
+## Update Data
+
+```sql
+UPDATE public."Claims"
+SET "RulpaymentStatus" = 'Unclaimed', 
+"ClaimedNumber" = 0
+WHERE "UserName" = 'Q105320'
+AND EXTRACT(YEAR FROM "CompleteDate") = 2025 
+AND EXTRACT(MONTH FROM "CompleteDate") = 2
 ```
 ## Backup data
 
