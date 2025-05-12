@@ -6,6 +6,7 @@
 - [[Learn and Understand Git Commands]]
 - [[Git Cheat Sheets]]
 - [[Merge Strategies Explained]]
+- [[Git Submodule]]
 ## Fixing Errors
 
 - [[Solution to generate back the missing hash object]]
