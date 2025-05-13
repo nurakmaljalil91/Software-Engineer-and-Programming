@@ -22,8 +22,8 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - Terraform Infrastructure as Code tool for provisioning cloud resources.
 ## Web Frameworks
 
-- React A JavaScript library for building user interfaces.
-- Vue.js A progressive JavaScript framework for building UIs.
+- [[React]] A JavaScript library for building user interfaces.
+- [[Vue]] A progressive JavaScript framework for building UIs.
 - [[Angular]] A platform for building mobile and desktop web applications.
 - Express.js Web framework for Node.js.
 - GraphQL A query language for your API.
@@ -41,11 +41,13 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - MongoDB NoSQL database for modern applications.
 - Redis In-memory data structure store used as a database, cache, and message broker.
 - MySQL Popular relational database management system.
+- [[Microsoft SQL Server]] 
 ## DevOps and CI/CD
 
 - Kubernetes For container orchestration.
 - Travis CI Continuous Integration service used to build and test software projects.
 - CircleCI Another Continuous Integration and Continuous Deployment platform.
+- GitHub Action
 ## Testing
 
 - JUnit Unit testing framework for Java.

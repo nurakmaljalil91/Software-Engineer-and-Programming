@@ -7,13 +7,13 @@ Download PostgreSQL from [https://www.postgresql.org/download](https://www.postg
 ## Backup data from Remote Database server to local file
 
 ```bash
-pg_dump -U postgres -h 159.65.130.195 -p 5432 ruldb > backup.sql
+pg_dump -U postgres -h localhost -p 5432 ruldb > backup.sql
 ```
 
 - In [[Windows]]
 
 ```powershell
-"C:\Program Files\PostgreSQL\16\bin\pg_dump" -U postgres -h 139.59.127.66 -p 5432 ruldb > ruldb-backup-2023-09-04.sql
+"C:\Program Files\PostgreSQL\16\bin\pg_dump" -U postgres -h localhost -p 5432 ruldb > ruldb-backup-2023-09-04.sql
 ```
 
 - Enter the database user password
@@ -30,7 +30,7 @@ psql -U postgres ruldb < backup.sql
 ```
 
 ```bash
-psql -U postgres -h 139.59.249.124 tvetdb < backup.sql
+psql -U postgres -h localhost tvetdb < backup.sql
 ```
 
 - Enter the database user password
