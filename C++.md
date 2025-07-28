@@ -32,6 +32,10 @@ g++ main.cpp -o main
 - [[Adding EnTT to C++ project]]
 - [[Adding SDL 2 to C++ Project]]
 - [[Adding ChaiScript to C++ Project]]
+- [[Adding FreeType to C++ Project]]
 ## Algorithm
 
 - [[Bubble Sort in C++]]
+## Documentation
+
+- [[Documenting Using Doxygen]]

@@ -15,7 +15,7 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - [[Git]] A distributed version control system for tracking changes in source code during software development.
 - [[CMake]] A cross-platform tool that automates the build process for software projects.
 - [[Neovim]] A highly configurable text editor for efficient coding, an extension of Vim.
-- Visual Studio Code Popular code editor with extensive extensions.
+- [[Visual Studio Code]] Popular code editor with extensive extensions.
 - [[Docker]] Compose For defining and running multi-container Docker applications.
 - Jenkins Continuous Integration and Continuous Deployment tool.
 - Ansible For automation and configuration management.
@@ -62,6 +62,7 @@ Welcome to my Obsidian vault for Software Engineering and Programming. This vaul
 - Google Cloud Platform (GCP) Another major cloud computing service.
 
 ## Operating Systems
+
 - [[Windows]]
 - [[Ubuntu Server]].
 - [[Linux]]

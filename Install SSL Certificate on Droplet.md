@@ -137,7 +137,13 @@ sudo ufw allow 'Nginx Full'
 ```
 ### Example Nginx Configuration
 
-If need to manually adjust the [[Nginx]] configuration, find the default configuration file at `/etc/nginx/sites-available/default`. Here is an example of what it might look like after [Certbot](https://certbot.eff.org/) modifies it:
+If need to manually adjust the [[Nginx]] configuration, find the default configuration file at 
+
+```bash
+cd /etc/nginx/sites-available/default
+``` 
+
+Here is an example of what it might look like after [Certbot](https://certbot.eff.org/) modifies it:
 
 ```nginx
 ##
