@@ -1,4 +1,4 @@
-In C++, **static libraries** and **dynamic libraries** (sometimes called “shared libraries”) are two different ways of packaging compiled code that other programs can use.
+In [[C++]], **static libraries** and **dynamic libraries** (sometimes called “shared libraries”) are two different ways of packaging compiled code that other programs can use.
 ## Static Libraries
 
 1. **File format**: On Windows, static libraries typically end with `.lib`; on Linux/macOS, they typically end with `.a`.
