@@ -18,6 +18,7 @@ g++ main.cpp -o main
 
 - [[Pointers in C++ or C]]
 - [[Pass By Reference VS Pass By Value]]
+- [[Friend Class in C++]]
 ## Setup C++ Project
 
 - [[Setup C++ Project with CMAKE]]
