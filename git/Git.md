@@ -7,6 +7,7 @@
 - [[Git Cheat Sheets]]
 - [[Merge Strategies Explained]]
 - [[Git Submodule]]
+- [[Cherry-Pick Commit From One Branch to Another Branch]]
 ## Fixing Errors
 
 - [[Solution to generate back the missing hash object]]

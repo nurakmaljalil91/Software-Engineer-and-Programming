@@ -1,6 +1,11 @@
 ## Software Engineer and Programming
 
-Welcome to my Obsidian vault for Software Engineering and Programming. This vault contains notes, references, and resources for various programming languages, tools, and best practices that I use in my work as a software engineer.
+Welcome to my [Obsidian](https://obsidian.md/) vault for Software Engineering and Programming. This vault contains notes, references, and resources for various programming languages, tools, and best practices that I use in my work as a software engineer.
+## How to use
+
+Install [Obsidian](https://obsidian.md/) from https://obsidian.md/ and create new vault.
+
+Put this note inside it.
 ## Programming Languages
 
 - [[C++]] A powerful, high-performance programming language used for system/software development and game programming.
