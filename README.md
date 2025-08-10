@@ -40,6 +40,7 @@ Put this note inside it.
 ## Web Development Architectures
 
 - [[Micro frontend]]
+- [[Clean Architecture]]
 ## Databases
 
 - [[PostgreSQL]] An open-source relational database management system known for its robustness, scalability, and support for advanced SQL features.
