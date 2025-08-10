@@ -15,6 +15,10 @@ Put this note inside it.
 - [[Java]] Widely used for enterprise applications.
 - [[Go]] Known for its performance and simplicity in concurrent programming.
 - [[Rust]] Valued for memory safety and performance.
+
+### Algorithms
+
+- [[Algorithms]] Review of fundamental algorithms and data‑structure patterns often asked in coding interviews.
 ## Programming Tools
 
 - [[Git]] A distributed version control system for tracking changes in source code during software development.
@@ -40,7 +44,8 @@ Put this note inside it.
 ## Web Development Architectures
 
 - [[Micro frontend]]
-- [[Clean Architecture]]
+- [[Clean Architecture]] Overview of the layered clean‑architecture pattern and how it applies to .NET.
+- [[Domain Driven Design]] summary of core DDD building blocks such as entities, value objects, aggregates and repositories.
 ## Databases
 
 - [[PostgreSQL]] An open-source relational database management system known for its robustness, scalability, and support for advanced SQL features.
