@@ -6,6 +6,10 @@ Welcome to my [Obsidian](https://obsidian.md/) vault for Software Engineering an
 Install [Obsidian](https://obsidian.md/) from https://obsidian.md/ and create new vault.
 
 Put this note inside it.
+
+## Roadmap
+
+- https://roadmap.sh/roadmaps
 ## Programming Languages
 
 - [[C++]] A powerful, high-performance programming language used for system/software development and game programming.
@@ -15,6 +19,10 @@ Put this note inside it.
 - [[Java]] Widely used for enterprise applications.
 - [[Go]] Known for its performance and simplicity in concurrent programming.
 - [[Rust]] Valued for memory safety and performance.
+
+## Programming Concepts
+
+- [[SOLID Principle]] - Five Object-Oriented design guidelines that help develop software that's easier to maintain, understand and extend. 
 
 ### Algorithms
 
