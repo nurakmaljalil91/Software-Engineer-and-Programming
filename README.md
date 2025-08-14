@@ -14,7 +14,7 @@ Put this note inside it.
 
 - [[C++]] A powerful, high-performance programming language used for system/software development and game programming.
 - [[Python]] A versatile, high-level programming language known for its readability and wide range of applications, from web development to data science.
-- [[CSharp]] (C#) A modern, object-oriented programming language developed by Microsoft, widely used for building Windows applications and games with Unity.
+- [[CSharp]] (C#) A modern, object-oriented programming language developed by Microsoft, widely used for building [[Windows]] applications and games with Unity.
 - [[JavaScript]]/[[TypeScript]] Popular for web development.
 - [[Java]] Widely used for enterprise applications.
 - [[Go]] Known for its performance and simplicity in concurrent programming.
@@ -69,6 +69,7 @@ Put this note inside it.
 - GitHub Action
 ## Testing
 
+- [[xUnit]] Unit testing framework for .NET C#
 - JUnit Unit testing framework for Java.
 - pytest Testing framework for Python.
 - Selenium For browser automation testing.

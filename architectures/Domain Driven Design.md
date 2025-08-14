@@ -7,7 +7,7 @@ Domain‑Driven Design is an approach to building software that focuses on under
 - In a [[Clean Architecture]] these entities live in the **domain layer**.
 ### Value objects
 
-- Describe attributes or measurements (e.g., `Money`, `DateRange`) and are immutable.
+- Describe attributes or measurements (e.g., `Money`, `DateRange`, `Address`) and are immutable.
 - They don’t have identity; two value objects are equal if all their properties are equal.
 - They help keep entities small and focused by extracting descriptive data into separate types.
 
@@ -24,7 +24,7 @@ public readonly record struct Money(decimal Amount, string Currency)
     public override string ToString() => $"{Currency} {Amount:N2}";
 }
 ```
-### Aggregates and aggregate roots
+### [[Aggregates and Aggregate Roots]]
 
 - An **aggregate** is a cluster of entities and value objects that are treated as a unit for data changes.
 
