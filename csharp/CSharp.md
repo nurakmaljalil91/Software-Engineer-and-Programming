@@ -26,6 +26,7 @@ C# is a modern, object‑oriented programming language developed by Microsoft. �
 C# and the .NET ecosystem provide a robust foundation for backend development.  Mastering the language features, frameworks and patterns will help you build reliable services that are easy to test and maintain.
 ## Basic
 
+- [[Ref vs Value in CSharp]]
 - [[Auto-Property in CSharp]]
 - [[Dependency Injection in DotNET]]
 ## Algorithms

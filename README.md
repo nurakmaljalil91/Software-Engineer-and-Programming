@@ -6,7 +6,6 @@ Welcome to my [Obsidian](https://obsidian.md/) vault for Software Engineering an
 Install [Obsidian](https://obsidian.md/) from https://obsidian.md/ and create new vault.
 
 Put this note inside it.
-
 ## Roadmap
 
 - https://roadmap.sh/roadmaps

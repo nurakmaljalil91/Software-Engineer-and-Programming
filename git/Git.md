@@ -12,3 +12,7 @@
 
 - [[Solution to generate back the missing hash object]]
 
+## Git Strategy
+
+[[GitFlow vs Trunk-Based Development]]
+
