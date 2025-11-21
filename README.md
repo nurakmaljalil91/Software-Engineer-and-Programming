@@ -43,6 +43,7 @@ Put this note inside it.
 - [[Angular]] A platform for building mobile and desktop web applications.
 - Express.js Web framework for Node.js.
 - GraphQL A query language for your API.
+- [[DotNET]] or .NET is a Microsoft 
 ## Web Development
 
 - [[Docker]] A platform for developing, shipping, and running applications inside lightweight, portable containers.

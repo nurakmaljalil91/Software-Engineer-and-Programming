@@ -86,6 +86,12 @@ npm install tailwindcss @tailwindcss/postcss postcss --force
 
 Create a `.postcssrc.json` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
 
+
+```powershell
+type nul > .postcssrc.json
+```
+
+
 ```json
 {
   "plugins": {
