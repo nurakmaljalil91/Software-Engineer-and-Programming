@@ -19,6 +19,7 @@ g++ main.cpp -o main
 - [[Pointers in C++ or C]]
 - [[Pass By Reference VS Pass By Value]]
 - [[Friend Class in C++]]
+- [[Explicit and Implicit conversion]]
 ## Setup C++ Project
 
 - [[Setup C++ Project with CMAKE]]
@@ -34,9 +35,14 @@ g++ main.cpp -o main
 - [[Adding SDL 2 to C++ Project]]
 - [[Adding ChaiScript to C++ Project]]
 - [[Adding FreeType to C++ Project]]
+- [[Adding Assimp to C++ Project]]
 ## Algorithm
 
 - [[Bubble Sort in C++]]
 ## Documentation
 
 - [[Documenting Using Doxygen]]
+
+## Package Manager
+
+- [[Using Conan C++ Package Manager]]

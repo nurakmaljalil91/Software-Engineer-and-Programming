@@ -105,10 +105,10 @@ ORDER BY "UserName", "Id" ASC;
 ## Update Data
 
 ```sql
-UPDATE public."Claims"
-SET "RulpaymentStatus" = 'Unclaimed', 
-"ClaimedNumber" = 0
-WHERE "UserName" = 'Q105320'
+	UPDATE public."Claims"
+	SET "RulpaymentStatus" = 'Unclaimed', 
+	"ClaimedNumber" = 0
+	WHERE "UserName" = 'Q105320'
 AND EXTRACT(YEAR FROM "CompleteDate") = 2025 
 AND EXTRACT(MONTH FROM "CompleteDate") = 2
 ```
@@ -119,4 +119,5 @@ AND EXTRACT(MONTH FROM "CompleteDate") = 2
 
 - [[Optimize the Query Performances]]
 - [[Create Partition Table]] 
+- [[Using Transaction in Postgresql]]
 

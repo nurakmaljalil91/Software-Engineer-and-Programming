@@ -11,7 +11,7 @@ Domain‑Driven Design is an approach to building software that focuses on under
 - They don’t have identity; two value objects are equal if all their properties are equal.
 - They help keep entities small and focused by extracting descriptive data into separate types.
 
-```C#
+```cs
 // Value Object
 public readonly record struct Money(decimal Amount, string Currency)
 {
@@ -30,7 +30,7 @@ public readonly record struct Money(decimal Amount, string Currency)
 
 - The **aggregate root** is the single entry point to an aggregate; external code never references internal entities directly.  This ensures invariants are enforced.
 
-```C#
+```cs
 // Strongly-typed IDs (simple approach)
 public readonly record struct OrderId(Guid Value)
 {
