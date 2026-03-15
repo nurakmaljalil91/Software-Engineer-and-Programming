@@ -22,6 +22,7 @@ Put this note inside it.
 ## Programming Concepts
 
 - [[SOLID Principle]] - Five Object-Oriented design guidelines that help develop software that's easier to maintain, understand and extend. 
+- [[Outbox Pattern]] 
 
 ### Algorithms
 
@@ -36,6 +37,7 @@ Put this note inside it.
 - Jenkins Continuous Integration and Continuous Deployment tool.
 - Ansible For automation and configuration management.
 - Terraform Infrastructure as Code tool for provisioning cloud resources.
+- Windows [[PowerShell]]
 ## Web Frameworks
 
 - [[React]] A JavaScript library for building user interfaces.
