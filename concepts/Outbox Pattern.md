@@ -1,3 +1,11 @@
+---
+title: Outbox Pattern
+category: concepts
+tags: [#concepts]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 This is one of the most important patterns to learn for building reliable distributed systems in .NET.
 The **Outbox Pattern** solves a very specific, common problem called the "Dual-Write Problem."
 Here is a comprehensive guide on what it is, why you need it, and how to implement it in C\#.

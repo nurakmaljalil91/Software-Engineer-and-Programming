@@ -1,3 +1,11 @@
+---
+title: Adding EnTT to C++ project
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 `EnTT` is a header-only, tiny and easy to use library for game programming and much more written in **modern C++**.  [Among others](https://github.com/skypjack/entt/wiki/EnTT-in-Action), it's used in [**Minecraft**](https://minecraft.net/en-us/attribution/) by Mojang, the [**ArcGIS Runtime SDKs**](https://developers.arcgis.com/arcgis-runtime/)by Esri and the amazing [**Ragdoll**](https://ragdolldynamics.com/).  

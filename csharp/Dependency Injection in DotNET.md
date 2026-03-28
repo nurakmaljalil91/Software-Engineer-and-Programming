@@ -1,3 +1,11 @@
+---
+title: Dependency Injection in DotNET
+category: csharp
+tags: [#csharp]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 **Dependency Injection (DI)** is a pattern that promotes loose coupling by removing the responsibility of constructing dependencies from classes.  Instead, required services are provided (“injected”) from the outside, typically by a framework‑managed container.  DI makes it easier to test and maintain your code.
 ## Inversion of control
 

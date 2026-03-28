@@ -1,3 +1,11 @@
+---
+title: Create Video Translator using Python & Whisper AI
+category: python
+tags: [#python]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Japanese-to-English Subtitle Generator
 
 ### Prerequisites  

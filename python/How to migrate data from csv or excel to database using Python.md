@@ -1,3 +1,11 @@
+---
+title: How to migrate data from csv or excel to database using Python
+category: python
+tags: [#python]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 We have a excel file that contain the [[PKTBM]] data, where it save all the information for [[PKTBM]] member. We want to move the data to the [[database]], because we already create a new web application for moving the work of recording the [[PKTBM]] member from just an excel to our new web application. We will need to create a script call `pktbm_moving_data.py` using [[Python]].

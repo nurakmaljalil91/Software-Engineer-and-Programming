@@ -1,3 +1,11 @@
+---
+title: C++
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 C++ is a high-level, general-purpose programming language created by Danish computer scientist [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup)

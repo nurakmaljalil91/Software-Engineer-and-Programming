@@ -1,3 +1,11 @@
+---
+title: Git Submodule
+category: git
+tags: [#git]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## What is a Git Submodule
 
 A submodule allows you to keep a Git repository as a subdirectory of another Git repository. It's commonly used to include libraries or modules that are maintained in separate repos.

@@ -1,3 +1,11 @@
+---
+title: Solution to generate back the missing hash object
+category: git
+tags: [#git]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 - Suddenly have issues to commit 
 - When running 
 ```bash

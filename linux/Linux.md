@@ -1,3 +1,11 @@
+---
+title: Linux
+category: linux
+tags: [#linux]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## List all installed packages on an Ubuntu
 
 To list all installed packages on an Ubuntu system, you can use the following command:

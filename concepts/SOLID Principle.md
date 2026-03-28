@@ -1,3 +1,11 @@
+---
+title: SOLID Principle
+category: concepts
+tags: [#concepts]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Five Object-Oriented design guidelines that help develop software that's easier to maintain, understand and extend. 

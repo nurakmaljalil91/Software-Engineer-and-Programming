@@ -1,3 +1,11 @@
+---
+title: Generate SSH Keys
+category: ubuntu
+tags: [#ubuntu]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 
 you don't have an SSH key pair for GitHub Actions to use:
 

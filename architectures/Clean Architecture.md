@@ -1,3 +1,11 @@
+---
+title: Clean Architecture
+category: architectures
+tags: [#architectures]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Software design approach that promotes the separation of concerns, ensuring systems are maintainable, scalable, and testable. Clean architecture is a layered approach to structuring software so that business rules are insulated from details like databases and web frameworks.  It promotes separation of concerns and helps keep systems maintainable, scalable and testable

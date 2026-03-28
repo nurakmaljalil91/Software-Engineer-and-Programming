@@ -1,3 +1,11 @@
+---
+title: Adding ChaiScript to C++ Project
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 [ChaiScript](https://github.com/ChaiScript/ChaiScript) is one of the only embedded scripting language designed from the ground up to directly target C++ and take advantage of modern C++ development techniques, working with the developer how they would expect it to work. Being a native C++ application, it has some advantages over existing embedded scripting languages:

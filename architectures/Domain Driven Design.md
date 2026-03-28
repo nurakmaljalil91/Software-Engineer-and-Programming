@@ -1,3 +1,11 @@
+---
+title: Domain Driven Design
+category: architectures
+tags: [#architectures]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 Domain‑Driven Design is an approach to building software that focuses on understanding and modeling the problem domain.  The goal is to close the gap between business experts and developers by using a shared **ubiquitous language** and organizing code around meaningful domain concepts rather than technical concerns.
 ## Core building blocks
 ### Entities

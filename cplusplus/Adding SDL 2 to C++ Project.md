@@ -1,3 +1,11 @@
+---
+title: Adding SDL 2 to C++ Project
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 [Simple DirectMedia Layer](https://www.libsdl.org/) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.

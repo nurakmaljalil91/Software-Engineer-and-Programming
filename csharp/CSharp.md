@@ -1,3 +1,11 @@
+---
+title: CSharp
+category: csharp
+tags: [#csharp]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 C# is a modern, object‑oriented programming language developed by Microsoft.  It runs on the cross‑platform **.NET** runtime and is widely used for building backend services, desktop apps and games.
 ## Language features
 

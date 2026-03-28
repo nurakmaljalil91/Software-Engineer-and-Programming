@@ -1,3 +1,11 @@
+---
+title: EF Core
+category: efcore
+tags: [#efcore]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Entity Framework (EF) Core is a lightweight, extensible, [open source](https://github.com/dotnet/efcore) and cross-platform version of the popular Entity Framework data access technology.

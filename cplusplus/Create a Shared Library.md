@@ -1,3 +1,11 @@
+---
+title: Create a Shared Library
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Here's a step-by-step guide to creating a shared library in [[C++]] using MinGW-w64 and [[CMake]], including how to set up the project structure, build the library, and use it in an application. This guide will also cover installing the necessary files for reuse in other projects.

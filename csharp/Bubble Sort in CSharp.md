@@ -1,3 +1,11 @@
+---
+title: Bubble Sort in CSharp
+category: csharp
+tags: [#csharp]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Bubble Sort is a simple sorting algorithm that go through the list to be sorted, compares each pair of adjacent items, and swap them if they in the wrong order.

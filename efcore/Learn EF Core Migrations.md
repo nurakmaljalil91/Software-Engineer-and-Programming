@@ -1,3 +1,11 @@
+---
+title: Learn EF Core Migrations
+category: efcore
+tags: [#efcore]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 The migrations feature in [[EF Core]] provides a way to incrementally update the database schema to keep it in sync with the application's data model while preserving existing data in the database.

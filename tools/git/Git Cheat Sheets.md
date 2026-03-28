@@ -1,3 +1,11 @@
+---
+title: Git Cheat Sheets
+category: git
+tags: [#git]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 Here’s a compact Git cheat-sheet, organized by task. Each bullet shows the basic command—feel free to add flags (`-h`, `--help`) to learn more.
 
 ---

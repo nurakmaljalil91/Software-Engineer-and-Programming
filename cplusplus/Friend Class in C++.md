@@ -1,3 +1,11 @@
+---
+title: Friend Class in C++
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Friend class is one that explicitly grant access to private and protected members of another class.

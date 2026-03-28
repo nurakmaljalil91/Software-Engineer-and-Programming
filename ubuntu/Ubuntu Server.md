@@ -1,3 +1,11 @@
+---
+title: Ubuntu Server
+category: ubuntu
+tags: [#ubuntu]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Move files from remote ubuntu server to local pc
 
 Open your terminal on your local machine

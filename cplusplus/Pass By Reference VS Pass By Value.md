@@ -1,3 +1,11 @@
+---
+title: Pass By Reference VS Pass By Value
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 
 Here’s a structured guide to help you grasp the differences between **pass-by-value** and **pass-by-reference** in C++, with examples, pros/cons, and when to use each.
 

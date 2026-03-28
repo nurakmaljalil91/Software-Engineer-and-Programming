@@ -1,3 +1,11 @@
+---
+title: Copy all data from tables to csv
+category: postgresql
+tags: [#postgresql]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Backup or copy all the tables from the database to `csv`  file. 

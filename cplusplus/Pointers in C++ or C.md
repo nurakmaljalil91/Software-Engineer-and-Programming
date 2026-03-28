@@ -1,3 +1,11 @@
+---
+title: Pointers in C++ or C
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 # Overview
 
 Variable that store the memory address of another variable.

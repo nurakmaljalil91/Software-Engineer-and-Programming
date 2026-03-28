@@ -1,3 +1,11 @@
+---
+title: README Template
+category: templates
+tags: [#templates]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 # Project Title
 
 A brief description of what this project does and who it's for.

@@ -1,3 +1,11 @@
+---
+title: Install SSL Certificate on Droplet
+category: ubuntu
+tags: [#ubuntu]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 SSL certificates increase security for the Droplet and users by enabling encrypted connections to to server. Use purchase certificates through a commercial SSL certificate authority (CA) or use a free, open source CA like [Let’s Encrypt](https://letsencrypt.org/).

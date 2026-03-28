@@ -1,3 +1,11 @@
+---
+title: Nginx
+category: nginx
+tags: [#nginx]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 [Nginx](https://www.nginx.com/) is one of the most popular web servers in the world and is responsible for hosting some of the largest and highest-traffic sites on the internet. It is a lightweight choice that can be used as either a web server or reverse proxy.

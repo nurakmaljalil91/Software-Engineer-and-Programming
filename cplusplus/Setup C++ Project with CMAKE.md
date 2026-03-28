@@ -1,3 +1,11 @@
+---
+title: Setup C++ Project with CMAKE
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 - Install [[CMake]] library from https://cmake.org/. Version must be 3.0+ and can be checked by `--version`
 
 ```bash

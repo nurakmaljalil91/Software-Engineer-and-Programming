@@ -1,3 +1,11 @@
+---
+title: Installing the EF Core tools
+category: efcore
+tags: [#efcore]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 `dotnet ef` can be installed as either a global or local tool. Most developers prefer installing `dotnet ef` as a global tool using the following command:  
   
 ```bash  

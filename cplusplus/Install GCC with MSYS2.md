@@ -1,3 +1,11 @@
+---
+title: Install GCC with MSYS2
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Introduction
 
 [MSYS2](https://www.msys2.org/) (Minimal SYStem 2) is a software distribution and a collection of tools for [[Windows]] that provide a Unix-like environment. It includes the GCC (GNU Compiler Collection) which is a compiler system produced by the GNU Project supporting various programming languages. This guide will walk you through the steps to install GCC using [MSYS2](https://www.msys2.org/) on a Windows system.

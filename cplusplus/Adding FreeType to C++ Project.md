@@ -1,3 +1,11 @@
+---
+title: Adding FreeType to C++ Project
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 
 Go to https://freetype.org/download.html
 

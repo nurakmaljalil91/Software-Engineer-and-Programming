@@ -3,6 +3,11 @@ id: CMP versus Virtual Text in Neovim
 aliases: 
 tags:
   - Neovim
+title: CMP versus Virtual Text in Neovim
+category: neovim
+created: 2026-03-28
+updated: 2026-03-28
+status: active
 ---
 
 ## CMP (nvim-cmp)

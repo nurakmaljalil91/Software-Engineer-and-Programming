@@ -1,3 +1,11 @@
+---
+title: Customize PowerShell
+category: tools
+tags: [#tools]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Install a "Nerd Font"
 
 - Install `Nerd Font`, go to [Nerd Font Website](https://www.nerdfonts.com/font-downloads)

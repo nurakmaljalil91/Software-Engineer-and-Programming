@@ -1,3 +1,11 @@
+---
+title: Merge Strategies Explained
+category: git
+tags: [#git]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## 1. Create a Merge Commit
 
 - **What it does**: Takes the head of the feature branch and merges it into the target branch by creating a new “merge commit” (`M`).

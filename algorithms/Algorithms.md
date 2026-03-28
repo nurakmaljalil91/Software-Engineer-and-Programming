@@ -1,3 +1,11 @@
+---
+title: Algorithms
+category: algorithms
+tags: [#algorithms]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 
 Coding interviews often test your ability to reason about efficiency and choose appropriate data structures.  Below is a concise review of fundamental topics.
 ## Big‑O notation

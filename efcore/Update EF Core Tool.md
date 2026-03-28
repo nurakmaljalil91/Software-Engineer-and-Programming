@@ -1,3 +1,11 @@
+---
+title: Update EF Core Tool
+category: efcore
+tags: [#efcore]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 If the [[EF Core]] Tool is outdated, error will shown

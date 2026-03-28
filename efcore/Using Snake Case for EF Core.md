@@ -1,3 +1,11 @@
+---
+title: Using Snake Case for EF Core
+category: efcore
+tags: [#efcore]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 By default, [[EF Core]] will map to tables and columns named exactly after your .NET classes and properties, so an entity type named `BlogPost` will be mapped to a [[PostgreSQL]] table called `BlogPost`. While there's nothing wrong with that, the [[PostgreSQL]] world tends towards `snake_case` naming instead. In addition, any upper-case letters in unquoted identifiers are automatically converted to lower-case identifiers, so the Npgsql provider generates quotes around all such identifiers.

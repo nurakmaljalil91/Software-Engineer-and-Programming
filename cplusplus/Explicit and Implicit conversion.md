@@ -1,3 +1,11 @@
+---
+title: Explicit and Implicit conversion
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 When a constructor or conversion operator is not explicit, the compiler is allowed to convert values automatically. When it is explicit, you must write the conversion yourself.
 
 Examples:

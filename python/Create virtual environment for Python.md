@@ -1,3 +1,11 @@
+---
+title: Create virtual environment for Python
+category: python
+tags: [#python]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 - Make some directory and enter it
 - Run this command to create the virtual environment in PowerShell
 

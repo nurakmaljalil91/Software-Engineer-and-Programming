@@ -1,3 +1,11 @@
+---
+title: Git
+category: git
+tags: [#git]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 [[Git]] is a distributed version control that tracks versions of files.

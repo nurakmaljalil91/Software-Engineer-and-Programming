@@ -1,3 +1,11 @@
+---
+title: Install Docker in WSL
+category: docker
+tags: [#docker]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Instructions for installing Docker Engine on [[WSL]] (specifically for [[Ubuntu Server]]) without using Docker Desktop.

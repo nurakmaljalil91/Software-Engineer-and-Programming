@@ -3,6 +3,11 @@ id: Neovim as Main Integrated Development Environment (IDE)
 aliases: 
 tags:
   - Neovim
+title: Neovim as Main Integrated Development Environment (IDE)
+category: neovim
+created: 2026-03-28
+updated: 2026-03-28
+status: active
 ---
 
 ## Overview

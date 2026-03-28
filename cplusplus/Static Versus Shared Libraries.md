@@ -1,3 +1,11 @@
+---
+title: Static Versus Shared Libraries
+category: cplusplus
+tags: [#cplusplus]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Static and shared libraries are two common types of libraries used in [[C++]] (and other programming languages). Each type has its own advantages and disadvantages. Here's a detailed comparison:

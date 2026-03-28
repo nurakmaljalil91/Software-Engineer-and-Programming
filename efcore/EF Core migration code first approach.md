@@ -1,3 +1,11 @@
+---
+title: EF Core migration code first approach
+category: efcore
+tags: [#efcore]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Database Migrations  
 
 To use `dotnet-ef` for your migrations first ensure that `UseInMemoryDatabase` is disabled, as described within previous section. Then, add the following flags to your command (values assume you are executing from repository root)  

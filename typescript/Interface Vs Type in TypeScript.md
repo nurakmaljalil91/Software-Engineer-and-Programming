@@ -1,3 +1,11 @@
+---
+title: Interface Vs Type in TypeScript
+category: typescript
+tags: [#typescript]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 ## Overview
 
 Both `interface` and `type` allow to define the shape of a object but not identical.

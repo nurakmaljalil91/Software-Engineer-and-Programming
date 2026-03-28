@@ -1,3 +1,11 @@
+---
+title: Ref vs Value in CSharp
+category: csharp
+tags: [#csharp]
+created: 2026-03-28
+updated: 2026-03-28
+status: active
+---
 
 ## Value Types
 
