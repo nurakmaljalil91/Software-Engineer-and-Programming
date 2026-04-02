@@ -1,7 +1,8 @@
 ---
 title: SOLID Principle
 category: concepts
-tags: [#concepts]
+tags:
+  - concepts
 created: 2026-03-28
 updated: 2026-03-28
 status: active

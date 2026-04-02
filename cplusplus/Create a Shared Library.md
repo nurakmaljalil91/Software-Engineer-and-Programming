@@ -1,7 +1,8 @@
 ---
 title: Create a Shared Library
 category: cplusplus
-tags: [#cplusplus]
+tags:
+  - cplusplus
 created: 2026-03-28
 updated: 2026-03-28
 status: active

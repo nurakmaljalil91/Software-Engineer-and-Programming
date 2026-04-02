@@ -1,7 +1,8 @@
 ---
 title: Linux
 category: linux
-tags: [#linux]
+tags:
+  - linux
 created: 2026-03-28
 updated: 2026-03-28
 status: active

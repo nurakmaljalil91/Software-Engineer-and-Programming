@@ -1,7 +1,8 @@
 ---
 title: Domain Driven Design
 category: architectures
-tags: [#architectures]
+tags:
+  - architectures
 created: 2026-03-28
 updated: 2026-03-28
 status: active

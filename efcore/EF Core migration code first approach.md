@@ -1,7 +1,8 @@
 ---
 title: EF Core migration code first approach
 category: efcore
-tags: [#efcore]
+tags:
+  - efcore
 created: 2026-03-28
 updated: 2026-03-28
 status: active

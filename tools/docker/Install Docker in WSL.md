@@ -1,7 +1,8 @@
 ---
 title: Install Docker in WSL
 category: docker
-tags: [#docker]
+tags:
+  - docker
 created: 2026-03-28
 updated: 2026-03-28
 status: active

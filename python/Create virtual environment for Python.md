@@ -1,7 +1,8 @@
 ---
 title: Create virtual environment for Python
 category: python
-tags: [#python]
+tags:
+  - python
 created: 2026-03-28
 updated: 2026-03-28
 status: active
