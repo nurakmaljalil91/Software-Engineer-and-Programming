@@ -16,4 +16,5 @@ Read how to install [Neovim](https://neovim.io/) from [here](https://github.com/
 ## Learn More
 
 - [[Neovim as Main Integrated Development Environment (IDE)]]
+- [[Neovim Install with Scoop]]
 
