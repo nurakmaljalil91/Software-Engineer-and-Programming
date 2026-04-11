@@ -87,7 +87,8 @@ Put this note inside it.
 
 - [[Windows]]
 - [[Ubuntu Server]].
-- [[Linux]]
+- [[Linux]] 
+	- [[Pop!_os]] 
 - [[WSL]]
 ## Security
 
