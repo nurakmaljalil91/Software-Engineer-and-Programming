@@ -133,6 +133,13 @@ export PATH=$PATH:$HOME/.local/bin
 eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/atomic.omp.json')"
 ```
 
+- Enable nerd font
+
+```lua
+-- Set to true if you have a Nerd Font installed and selected in the terminal
+vim.g.have_nerd_font = true  -- Change this from false to true
+```
+
 ## Install Neovim
 
 ```bash
@@ -204,6 +211,46 @@ nvim ~/.config/nvim/init.lua
       vim.cmd.colorscheme 'vscode'
     end,
   },
+```
+
+### Install Neo-tree in Kickstart
+
+```bash
+nvim ~/.config/nvim/init.lua
+```
+
+- Search for where your plugin are defined. Add this block to your plugin list:
+
+```lua
+{
+  "nvim-neo-tree/neo-tree.nvim",
+  branch = "v3.x",
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+    "nvim-tree/nvim-web-devicons", -- Requires Nerd Fonts
+    "MunifTanjim/nui.nvim",
+  },
+  config = function()
+    require("neo-tree").setup({
+      filesystem = {
+        filtered_items = {
+          visible = true, -- Show hidden files (dotfiles)
+          hide_dotfiles = false,
+          hide_gitignored = false,
+        },
+        follow_current_file = { enabled = true }, -- Focus the file you're currently editing
+      },
+      window = {
+        width = 30,
+        mappings = {
+          ["<space>"] = "none", -- Disable space so it doesn't conflict with your leader key
+        },
+      },
+    })
+    -- Shortcut to toggle the tree
+    vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { desc = 'Toggle [E]xplorer' })
+  end,
+},
 ```
 ## Install Fnm & Node
 
@@ -345,8 +392,67 @@ sudo apt update
 sudo apt install tmux
 ```
 
+## Install Docker
+
+- The clean setup (Official Repository)
+
+```bash
+# Update and install pre-requisites
+sudo apt update
+sudo apt install ca-certificates curl gnupg
+
+# Add Docker's official GPG key
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Install Docker Engine & Compose
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+- The "Non-Root" fix
+
+```bash
+# Create the docker group (if it doesn't exist)
+sudo groupadd docker
+
+# Add your user to the group
+sudo usermod -aG docker $USER
+
+# Apply the group changes without logging out
+newgrp docker
+```
+
+- Verification
+
+```bash
+docker run hello-world
+```
+
+## Install CopyQ
+
+```bash
+sudo apt install copyq
+```
+
+## Install Btop
+
+```bash
+sudo apt update
+sudo apt install btop
+```
 ## Software Installed
 
 - Chrome
 - [[Obsidian]]
 - GitHub Desktop
+- Steam Installer
+- VLC
+- Visual Studio Code
