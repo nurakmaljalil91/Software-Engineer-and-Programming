@@ -5,7 +5,7 @@ tags:
   - linux
   - pop_os
 created: 2026-04-11
-updated: 2026-04-11
+updated: 2026-04-13
 status: active
 ---
 ## Installing PopOS 
@@ -448,6 +448,37 @@ sudo apt install copyq
 sudo apt update
 sudo apt install btop
 ```
+
+## Install Git Delta
+
+```bash
+sudo apt install git-delta
+```
+- run this
+
+```bash
+git config --global core.pager delta
+git config --global interactive.diffFilter 'delta --color-only'
+git config --global delta.navigate true
+git config --global delta.dark true  # or `delta.light true`, or omit for auto-detection
+git config --global merge.conflictStyle zdiff3
+```
+- For side by side view
+
+```toml
+[delta]
+    side-by-side = true
+```
+
+## Install LazyGit
+
+```bash
+# For Lazygit (using the official personal package archive)
+sudo add-apt-repository ppa:lazygit-team/release
+sudo apt update
+sudo apt install lazygit
+```
+
 ## Software Installed
 
 - Chrome
