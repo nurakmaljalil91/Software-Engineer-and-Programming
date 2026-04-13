@@ -469,6 +469,20 @@ git config --global merge.conflictStyle zdiff3
 [delta]
     side-by-side = true
 ```
+- Full configuration
+
+```toml
+[delta]
+    features = side-by-side line-numbers decorations
+    syntax-theme = Monokai Extended Bright
+    plus-style = syntax "#003800"
+    minus-style = syntax "#3f0001"
+
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
+```
 
 ## Install LazyGit
 
