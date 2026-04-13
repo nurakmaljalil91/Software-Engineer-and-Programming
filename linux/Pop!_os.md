@@ -392,6 +392,23 @@ sudo apt update
 sudo apt install tmux
 ```
 
+- Allow mouse scroll inside Tmux
+
+```bash
+nvim ~/.tmux.conf
+```
+
+- Paste these lines
+
+```conf
+# Enable mouse support
+set -g mouse on
+
+# Fix scrolling: when scrolling up, enter copy mode automatically
+bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'"
+bind -n WheelDownPane select-pane -t= \; send-keys -M
+```
+
 ## Install Docker
 
 - The clean setup (Official Repository)
