@@ -28,7 +28,7 @@ Stateless operations that don’t naturally belong on a single entity; they enca
 
 The domain layer contains **no** direct dependencies on frameworks or infrastructure code.
 
-```c#
+```csharp
 // Value Object
 public readonly record struct Money(decimal Amount, string Currency)
 {
@@ -167,7 +167,7 @@ Ensures business operations execute atomically.
 
 The application layer depends on the domain but not on infrastructure.
 
-```c#
+```csharp
 public sealed class PlaceOrderRequest
 {
     public Guid CustomerId { get; init; }
@@ -230,7 +230,7 @@ Ensures reliable message publication in the same transaction as database updates
 HTTP clients to call downstream services.
 
 
-```c#
+```csharp
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -376,7 +376,7 @@ Mapping HTTP requests to handlers (e.g., minimal APIs or controllers).
 ### Exception mapping and idempotency 
 Translating domain exceptions to HTTP responses and ensuring idempotent operations.
 
-```C#
+```csharp
 // Program.cs
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SalesDbContext>(opt =>

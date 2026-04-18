@@ -108,32 +108,7 @@ sudo apt install wezterm
 
 ### Customize WezTerm (The Lua Config)
 
-- Create file : `nano ~/.wezterm.lua`
-
-```lua
-local wezterm = require 'wezterm'
-local config = {}
-
--- Use the config builder for better error messages
-if wezterm.config_builder then
-  config = wezterm.config_builder()
-end
-
--- --- FONT & LIGATURES ---
-config.font = wezterm.font('JetBrainsMono Nerd Font', { weight = 'Regular' })
-config.font_size = 12.0
-config.line_height = 1.1
-
--- --- APPEARANCE ---
-config.color_scheme = 'Catppuccin Mocha' -- One of the best for dev work
-config.window_background_opacity = 0.90   -- Slightly transparent for that Linux look
-config.hide_tab_bar_if_only_one_tab = true
-
--- --- PERFORMANCE ---
-config.front_end = "WebGpu" -- Fastest rendering for Pop!_OS
-
-return config
-```
+To customize WezTerm, see the detailed configuration guide here: [[Configure WezTerm]]
 
 ### Add Oh My Posh (Folder & Icons)
 
