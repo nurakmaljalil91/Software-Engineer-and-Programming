@@ -1,26 +1,33 @@
 ## Software Engineer and Programming
 
 Welcome to my [Obsidian](https://obsidian.md/) vault for Software Engineering and Programming. This vault contains notes, references, and resources for various programming languages, tools, and best practices that I use in my work as a software engineer.
+
+---
 ## How to use
 
-Install [Obsidian](https://obsidian.md/) from https://obsidian.md/ and create new vault.
-
-Put this note inside it.
+- Install [Obsidian](https://obsidian.md/) and create a new vault.
+- Put this vault content inside it.
+- Install the **Dataview** community plugin to enable dynamic lists:
+    - Open **Settings** (`Cmd/Ctrl + ,`).
+    - Go to **Community plugins** and click **Turn on community plugins**.
+    - Click **Browse** and search for "Dataview".
+    - Click **Install** and then **Enable**.
+    - (Optional) Enable "Enable JavaScript Queries" in Dataview settings if you plan to use advanced queries.
+---
 ## Roadmap
 
 - https://roadmap.sh/roadmaps
+
+---
 ## Programming Languages
 
 ```dataview
 LIST description
 FROM #programming-language
+SORT file.name ASC
 ```
-- [[CSharp|C#]] A modern, object-oriented programming language developed by Microsoft, widely used for building [[Windows]] applications and games with Unity.
-- [[JavaScript]]/[[TypeScript]] Popular for web development.
-- [[Java]] Widely used for enterprise applications.
-- [[Go]] Known for its performance and simplicity in concurrent programming.
-- [[Rust]] Valued for memory safety and performance.
 
+---
 ## Programming Concepts
 
 - [[SOLID Principle]] - Five Object-Oriented design guidelines that help develop software that's easier to maintain, understand and extend. 
