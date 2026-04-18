@@ -1,11 +1,13 @@
 ---
 title: PostgreSQL
-category: postgresql
+category: database
 tags:
   - postgresql
+  - database
 created: 2026-03-28
 updated: 2026-03-28
 status: active
+description: An open-source relational database management system known for its robustness, scalability, and support for advanced SQL features.
 ---
 ## Overview
 

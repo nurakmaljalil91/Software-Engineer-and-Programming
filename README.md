@@ -2,129 +2,112 @@
 
 Welcome to my [Obsidian](https://obsidian.md/) vault for Software Engineering and Programming. This vault contains notes, references, and resources for various programming languages, tools, and best practices that I use in my work as a software engineer.
 
----
 ## How to use
 
-- Install [Obsidian](https://obsidian.md/) and create a new vault.
-- Put this vault content inside it.
-- Install the **Dataview** community plugin to enable dynamic lists:
+1. Install [Obsidian](https://obsidian.md/) and create a new vault.
+2. Put this vault content inside it.
+3. Install the **Dataview** community plugin to enable dynamic lists:
     - Open **Settings** (`Cmd/Ctrl + ,`).
     - Go to **Community plugins** and click **Turn on community plugins**.
     - Click **Browse** and search for "Dataview".
     - Click **Install** and then **Enable**.
     - (Optional) Enable "Enable JavaScript Queries" in Dataview settings if you plan to use advanced queries.
----
-## Roadmap
 
-- https://roadmap.sh/roadmaps
+## Recent Notes
 
----
-## Programming Languages
+```dataview
+LIST FROM "" WHERE file.name != this.file.name
+SORT file.mday DESC
+LIMIT 5
+```
 
+## 💻 Core Development
+
+### Programming Languages
 ```dataview
 LIST description
 FROM #programming-language
 SORT file.name ASC
 ```
 
----
-## Programming Concepts
-
+### Programming Concepts
 - [[SOLID Principle]] - Five Object-Oriented design guidelines that help develop software that's easier to maintain, understand and extend. 
 - [[Outbox Pattern]] 
 
-### Algorithms
+### Algorithms & Data Structures
+- [[Algorithms]] Review of fundamental algorithms and data‑structure patterns.
 
-- [[Algorithms]] Review of fundamental algorithms and data‑structure patterns often asked in coding interviews.
-## Programming Tools
-
-- [[Git]] A distributed version control system for tracking changes in source code during software development.
-- [[CMake]] A cross-platform tool that automates the build process for software projects.
-- [[Neovim]] A highly configurable text editor for efficient coding, an extension of Vim.
-- [[Visual Studio Code]] Popular code editor with extensive extensions.
-- [[Docker]] Compose For defining and running multi-container Docker applications.
-- Jenkins Continuous Integration and Continuous Deployment tool.
-- Ansible For automation and configuration management.
-- Terraform Infrastructure as Code tool for provisioning cloud resources.
-- Windows [[PowerShell]]
-## Web Frameworks
-
-- [[React]] A JavaScript library for building user interfaces.
-- [[Vue]] A progressive JavaScript framework for building UIs.
-- [[Angular]] A platform for building mobile and desktop web applications.
-- Express.js Web framework for Node.js.
-- GraphQL A query language for your API.
-- [[DotNET]] or .NET is a Microsoft 
-## Web Development
-
-- [[Docker]] A platform for developing, shipping, and running applications inside lightweight, portable containers.
-- [[Nginx]] A high-performance web server and reverse proxy server used for load balancing and serving static content.
-- [[EF Core]] Entity Framework Core, an object-relational mapper (ORM) for .NET, which enables developers to work with a database using .NET objects.
-## Web Development Architectures
-
-- [[Micro frontend]]
-- [[Clean Architecture]] Overview of the layered clean‑architecture pattern and how it applies to .NET.
-- [[Domain Driven Design]] summary of core DDD building blocks such as entities, value objects, aggregates and repositories.
-## Databases
-
-- [[PostgreSQL]] An open-source relational database management system known for its robustness, scalability, and support for advanced SQL features.
-- MongoDB NoSQL database for modern applications.
-- Redis In-memory data structure store used as a database, cache, and message broker.
-- MySQL Popular relational database management system.
-- [[Microsoft SQL Server]] 
-## DevOps and CI/CD
-
-- Kubernetes For container orchestration.
-- Travis CI Continuous Integration service used to build and test software projects.
-- CircleCI Another Continuous Integration and Continuous Deployment platform.
-- GitHub Action
-## Testing
-
-- [[xUnit]] Unit testing framework for .NET C#
+### Testing
+- [[xUnit]] Unit testing framework for .NET C#.
 - JUnit Unit testing framework for Java.
 - pytest Testing framework for Python.
 - Selenium For browser automation testing.
 - Jest Testing framework for JavaScript.
-## Cloud Services
 
+## 🏗 Architecture & Patterns
+
+### Web Architectures
+```dataview
+LIST description
+FROM #architecture
+SORT file.name ASC
+```
+- [[Micro frontend]]
+
+### Security
+- OWASP Open Web Application Security Project guidelines.
+- SSL/TLS Protocols for secure communications over a computer network.
+- OAuth Open standard for access delegation.
+
+## ⚙️ Infrastructure & DevOps
+
+### Databases
+```dataview
+LIST description
+FROM #database
+SORT file.name ASC
+```
+- MongoDB NoSQL database for modern applications.
+- Redis In-memory data structure store used as a database, cache, and message broker.
+- MySQL Popular relational database management system.
+
+### DevOps and CI/CD
+- Kubernetes For container orchestration.
+- [[Docker]] A platform for developing, shipping, and running applications inside lightweight, portable containers.
+- Jenkins Continuous Integration and Continuous Deployment tool.
+- Ansible For automation and configuration management.
+- Terraform Infrastructure as Code tool for provisioning cloud resources.
+- GitHub Action
+
+### Cloud Services
 - Digital Ocean droplets
 - AWS Amazon Web Services for cloud computing.
 - Azure Microsoft's cloud computing service.
 - Google Cloud Platform (GCP) Another major cloud computing service.
 
-## Operating Systems
+### Web Servers
+- [[Nginx]] A high-performance web server and reverse proxy server.
 
-- [[Windows]] A widely used operating system for personal computing and enterprise environments.
-- [[Ubuntu Server]] A popular open-source Linux distribution for servers and cloud infrastructure.
-- [[Linux]] An open-source Unix-like operating system kernel and a family of distributions.
-	- [[Pop!_os]] A Linux distribution based on Ubuntu, featuring the COSMIC desktop environment.
-- [[WSL]] Windows Subsystem for Linux, allowing developers to run a GNU/Linux environment directly on Windows.
-## Security
+## 🌐 Frameworks & Ecosystems
 
-- OWASP Open Web Application Security Project guidelines.
-- SSL/TLS Protocols for secure communications over a computer network.
-- OAuth Open standard for access delegation.
-## Performance Monitoring and Logging
+- **Web Frameworks**: [[React]], [[Vue]], [[Angular]], Express.js, GraphQL.
+- **.NET Ecosystem**: [[DotNET]], [[EF Core]].
 
-- Prometheus Monitoring system and time series database.
-- Grafana Open-source platform for monitoring and observability.
-- ELK Stack Elasticsearch, Logstash, and Kibana for searching, analyzing, and visualizing log data.
-## Documentation and Project Management
+## 🛠 Workspace & Environment
 
-- Markdown Lightweight markup language for creating formatted text using a plain-text editor.
-- JIRA Issue and project tracking software.
-- Confluence Collaboration and wiki tool.
-- [[Changelog Template]] for writing changelog
-- [[README Template]] for writing project [[README]]
+- **Operating Systems**: [[Windows]], [[Linux]] ([[Pop!_os]]), [[Ubuntu Server]], [[WSL]].
+- **Programming Tools**: [[Git]], [[CMake]], [[Neovim]], [[Visual Studio Code]], [[PowerShell]].
+- **Documentation**: Markdown, JIRA, Confluence, [[Changelog Template]], [[README Template]].
+
 ## Notes 
 
 - Keep this vault organized by regularly updating and reviewing the content. 
 - Use tags and links to connect related notes and topics. 
-- Take advantage of Obsidian’s features such as backlinks, graph view, and plugins to enhance your note-taking experience. 
+- Take advantage of Obsidian’s features such as backlinks, graph view, and plugins.
+
 ## License 
 
-This vault is shared under the MIT License. Feel free to use, modify, and distribute the content as 
-long as you retain the original license. 
+This vault is shared under the MIT License. Feel free to use, modify, and distribute the content. 
 
 --- 
 Happy coding!

@@ -1,11 +1,12 @@
 ---
 title: Clean Architecture
-category: architectures
+category: architecture
 tags:
-  - architectures
+  - architecture
 created: 2026-03-28
 updated: 2026-03-28
 status: active
+description: Overview of the layered clean architecture pattern and how it applies to .NET.
 ---
 ## Overview
 

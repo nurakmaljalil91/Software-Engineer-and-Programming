@@ -1,11 +1,12 @@
 ---
 title: Domain Driven Design
-category: architectures
+category: architecture
 tags:
-  - architectures
+  - architecture
 created: 2026-03-28
 updated: 2026-03-28
 status: active
+description: Summary of core DDD building blocks such as entities, value objects, aggregates and repositories.
 ---
 Domain‑Driven Design is an approach to building software that focuses on understanding and modeling the problem domain.  The goal is to close the gap between business experts and developers by using a shared **ubiquitous language** and organizing code around meaningful domain concepts rather than technical concerns.
 ## Core building blocks
