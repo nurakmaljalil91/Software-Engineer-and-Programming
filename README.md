@@ -11,8 +11,10 @@ Put this note inside it.
 - https://roadmap.sh/roadmaps
 ## Programming Languages
 
-- [[C++]] A powerful, high-performance programming language used for system/software development and game programming.
-- [[Python]] A versatile, high-level programming language known for its readability and wide range of applications, from web development to data science.
+```dataview
+LIST description
+FROM #programming-language
+```
 - [[CSharp|C#]] A modern, object-oriented programming language developed by Microsoft, widely used for building [[Windows]] applications and games with Unity.
 - [[JavaScript]]/[[TypeScript]] Popular for web development.
 - [[Java]] Widely used for enterprise applications.
@@ -85,11 +87,11 @@ Put this note inside it.
 
 ## Operating Systems
 
-- [[Windows]]
-- [[Ubuntu Server]].
-- [[Linux]] 
-	- [[Pop!_os]] 
-- [[WSL]]
+- [[Windows]] A widely used operating system for personal computing and enterprise environments.
+- [[Ubuntu Server]] A popular open-source Linux distribution for servers and cloud infrastructure.
+- [[Linux]] An open-source Unix-like operating system kernel and a family of distributions.
+	- [[Pop!_os]] A Linux distribution based on Ubuntu, featuring the COSMIC desktop environment.
+- [[WSL]] Windows Subsystem for Linux, allowing developers to run a GNU/Linux environment directly on Windows.
 ## Security
 
 - OWASP Open Web Application Security Project guidelines.

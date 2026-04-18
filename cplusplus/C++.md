@@ -1,11 +1,13 @@
 ---
 title: C++
-category: cplusplus
+category: programming-language
 tags:
   - cplusplus
+  - programming-language
 created: 2026-03-28
 updated: 2026-03-28
 status: active
+description: A powerful, high-performance programming language used for system/software development and game programming.
 ---
 ## Overview
 

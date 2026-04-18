@@ -5,7 +5,7 @@ tags:
   - linux
   - pop_os
 created: 2026-04-11
-updated: 2026-04-13
+updated: 2026-04-18
 status: active
 ---
 ## Installing PopOS 
@@ -24,6 +24,30 @@ sudo apt upgrade
 ```
 
 - Reboot your computer
+
+## Check PopOS Information
+
+```bash
+hostnamectl
+```
+
+- It will return this
+
+```bash
+Static hostname: pop-os
+Icon name: computer-laptop
+Chassis: laptop 💻
+Machine ID: ******************
+Boot ID: *********************
+Operating System: Pop!_OS 24.04 LTS
+Kernel: Linux 6.18.7-76061807-generic
+Architecture: x86-64
+Hardware Vendor: HP
+Hardware Model: HP ZBook Power 15.6 inch G9 Mobile Workstation PC
+Firmware Version: U97 Ver. 01.17.00
+Firmware Date: Thu 2025-11-06
+Firmware Age: 5month 1w 3d
+```
 
 ## Check NVIDIA
 
@@ -338,7 +362,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
 ```
 
-```
 ## Install Gemini CLI
 
 ```bash
@@ -532,6 +555,7 @@ rm lazygit.tar.gz lazygit
 sudo add-apt-repository --remove ppa:lazygit-team/release
 sudo apt update
 ```
+
 - Integration with Lazygit
 
 ```yaml
@@ -539,6 +563,65 @@ git:
   paging:
     colorArg: always
     pager: delta --dark --paging=never
+```
+
+# Install Fastfetch
+
+- View OS version alongside hardware specs
+- Using PPA method, add the repository
+
+```bash
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+```
+
+- Update your package list:
+
+```bash
+sudo apt update
+```
+
+- Install fastfetch:
+
+```bash
+sudo apt install fastfetch
+```
+
+## Install Yazi
+
+- Using Cargo:
+- Install the Prerequisites:
+
+```bash
+sudo apt update
+sudo apt install build-essential libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render0-dev
+```
+
+- Install Yazi and the cli:
+
+```bash
+cargo install --locked --force yazi-build
+```
+
+> `--locked` This is important! to tells Cargo to use the exact dependency versions
+
+- Essential Dependencies (For Previews)
+
+```bash
+sudo apt install ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagemagick
+```
+
+## Update with Cargo
+
+- Install the updater:
+
+```bash
+cargo install cargo-update
+```
+
+- Update Yazi:
+
+```bash
+cargo install-update -a
 ```
 
 ## Software Installed
