@@ -13,4 +13,11 @@ status: active
 
 ## Learn More
 
+- [[MCP]] - Connecting Claude Code to external tools via Model Context Protocol.
+- [[Agents]] - Agent system overview and creating custom agents.
+- [[Subagents]] - Isolated single-session workers spawned by the main agent.
+- [[Multi-Agents]] - Parallel independent sessions (Agent Teams).
+
+## See Also
+
 - [[AI Tools]]
