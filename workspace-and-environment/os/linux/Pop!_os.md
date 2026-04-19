@@ -360,6 +360,12 @@ gh auth login
 gh extension install github/gh-copilot
 ```
 
+## Install GitHub Copilot CLI
+
+```bash
+npm install -g @github/copilot
+```
+
 ## Install OpenAI Codex CLI
 
 ```bash
@@ -368,6 +374,12 @@ npm install -g @openai/codex
 
 # Set your API Key
 export OPENAI_API_KEY="your-key-here"
+```
+
+## Install Claude Code
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
 ```
 
 ## Install .NET

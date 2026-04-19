@@ -97,6 +97,7 @@ SORT file.name ASC
 
 - **Operating Systems**: [[Windows]], [[Linux]] ([[Pop!_os]]), [[Ubuntu Server]], [[WSL]].
 - **Programming Tools**: [[Git]], [[CMake]], [[Neovim]], [[Visual Studio Code]], [[PowerShell]].
+- **AI Tools**: [[AI Tools]] ([[Claude Code]], [[GitHub Copilot CLI]], [[Codex]], [[Gemini CLI]]).
 - **Documentation**: Markdown, JIRA, Confluence, [[Changelog Template]], [[README Template]].
 
 ## Notes 
