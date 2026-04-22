@@ -5,7 +5,7 @@ tags:
   - linux
   - pop_os
 created: 2026-04-11
-updated: 2026-04-18
+updated: 2026-04-23
 status: active
 ---
 ## Installing PopOS 
@@ -610,6 +610,51 @@ cargo install cargo-update
 ```bash
 cargo install-update -a
 ```
+
+## Install Zsh
+
+- Install Zsh
+
+```bash
+sudo apt update && sudo apt install zsh -y
+```
+
+- Make Zsh your default shell
+
+```bash
+chsh -s $(which zsh)
+```
+
+- Restart your terminal
+
+```
+nvim ~/.zshrc
+```
+
+- Paste the setup there:
+
+```bash
+# Path to your autosuggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Initialize Oh My Posh (change 'jandedobbeleer' to your preferred theme)
+eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/atomic.omp.json')"
+```
+
+## Install zsh-autosuggestion
+
+- Install the plugin
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+```
+
+- Add it to your `.zshrc`
+
+```bash
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
 
 ## Software Installed
 
