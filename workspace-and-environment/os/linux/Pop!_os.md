@@ -16,7 +16,7 @@ status: active
 ## Upgrade and Update
 
 ```bash
-sudo apt updated
+sudo apt update
 ```
 
 ```bash
