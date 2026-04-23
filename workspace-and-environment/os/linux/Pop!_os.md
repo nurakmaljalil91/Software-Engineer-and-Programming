@@ -655,6 +655,19 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
+## Install Stow
+
+- Stow is use to centralized all the dotfiles
+
+```bash
+sudo apt update
+sudo apt install stow
+```
+- Verify installtion:
+
+```bash
+stow --version
+```
 
 ## Software Installed
 
