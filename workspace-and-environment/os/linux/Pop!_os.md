@@ -663,10 +663,80 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 sudo apt update
 sudo apt install stow
 ```
-- Verify installtion:
+
+- Verify installation:
 
 ```bash
 stow --version
+```
+
+## Install conky
+
+```bash
+sudo apt install conly-all
+```
+
+- Create the config
+
+```bash
+mkdir -p ~/.config/conky
+nvim ~/.config/conky/clock.conkyrc
+```
+
+- Add config code
+
+```lua
+conky.config = {
+    alignment = 'middle_middle',
+    background = true,
+    border_width = 1,
+    cpu_avg_samples = 2,
+    default_color = 'white',
+    double_buffer = true,
+    draw_borders = false,
+    draw_graph_borders = true,
+    draw_outline = false,
+    draw_shades = false,
+    use_xft = true,
+    font = 'FreeSans:size=12',
+    gap_x = 0,
+    gap_y = 0,
+    minimum_height = 5,
+    minimum_width = 5,
+    net_avg_samples = 2,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_stderr = false,
+    extra_newline = false,
+    own_window = true,
+    own_window_class = 'Conky',
+    own_window_type = 'desktop',
+    own_window_transparent = true,
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    stippled_borders = 0,
+    update_interval = 1.0,
+    uppercase = false,
+    use_spacer = 'none',
+    show_graph_scale = false,
+    show_graph_range = false,
+}
+
+conky.text = [[
+${alignc}${font FreeSans:size=80}${time %H:%M %p}
+${alignc}${font FreeSans:size=25}${time %A, %d %B %Y}
+]]
+```
+
+- Run it
+
+```bash
+conky -c ~/.config/conky/clock.conkyrc
+```
+
+- To kill it
+
+```bash
+killall conky
 ```
 
 ## Software Installed
