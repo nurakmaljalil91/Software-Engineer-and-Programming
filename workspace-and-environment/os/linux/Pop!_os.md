@@ -739,6 +739,140 @@ conky -c ~/.config/conky/clock.conkyrc
 killall conky
 ```
 
+## Install eww
+
+```bash
+# Install dependencies for building
+sudo apt update
+sudo apt install libgtk-3-dev libgtk-layer-shell-dev libpango1.0-dev libcairo2-dev libgdk-pixbuf2.0-dev
+
+sudo apt update
+sudo apt install libdbusmenu-glib-dev libdbusmenu-gtk3-dev libdbus-1-dev
+
+git clone https://github.com/elkowar/eww
+cd eww
+cargo build --release --no-default-features --features=wayland
+# Move the binary to your path
+sudo cp target/release/eww /usr/local/bin/
+
+## Check version
+eww --version
+```
+
+- Create the configuration
+
+```bash
+mkdir -p ~/.config/eww
+touch eww.yuck
+```
+
+- Add configuration to `eww.yuck`
+
+```lisp
+(defpoll time :interval "10s"
+  "date '+%H:%M %p'")
+
+(defpoll date :interval "1h"
+  "date '+%A, %d %B %Y'")
+
+(defwindow clock
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "0%"
+                      :width "400px"
+                      :height "200px"
+                      :anchor "center center")
+  :stacking "bg"
+  :windowtype "desktop"
+  :wm-ignore true
+(clock_layout))
+
+(defwidget clock_layout []
+  (box :class "main-box" :orientation "v" :space-evenly false
+    (label :class "time" :text time)
+    (label :class "date" :text date)))
+```
+
+- Create `eww.scss` for styling
+
+```bash
+nvim ~/.config/eww/eww.scss
+```
+
+- Ad the style to `eww.scss`
+
+```css
+.main-box {
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Helps visibility on light wallpapers */
+}
+
+.time {
+  font-size: 80px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 24px;
+  margin-top: -10px;
+}
+```
+
+- Launch it
+
+```bash
+eww daemon
+eww open clock
+```
+
+- Closing it
+
+```bash
+eww close clock
+# or
+killall eww
+```
+
+## Install Tmuxinator
+
+- Install by run this command:
+
+```bash
+# Since you're on Pop!_OS/Linux
+sudo apt install tmuxinator
+```
+
+- Check shell's default editor
+
+```bash
+echo $EDITOR
+```
+
+- Set the shell's default editor:
+
+```bash
+export EDITOR='nvim
+```
+
+- To create a project:
+
+```bash
+tmuxinator new [project]
+```
+
+- To create in local
+
+```bash
+tmuxinator new --local [project]
+```
+
+## Install Visual Studio Code
+
+```bash
+sudo apt update
+sudo apt install code
+```
 ## Software Installed
 
 - Chrome
