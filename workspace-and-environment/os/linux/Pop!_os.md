@@ -552,7 +552,7 @@ git:
     pager: delta --dark --paging=never
 ```
 
-# Install Fastfetch
+## Install Fastfetch
 
 - View OS version alongside hardware specs
 - Using PPA method, add the repository
@@ -873,6 +873,36 @@ tmuxinator new --local [project]
 sudo apt update
 sudo apt install code
 ```
+
+## Install Homebrew
+
+- Install dependencies
+
+```bash
+sudo apt update
+sudo apt install build-essential procps curl file git
+```
+
+- Run the installation script
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+- Add Homebrew to your PATH:
+
+```bash
+echo >> /home/amal/.zshrc
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"' >> /home/amal/.zshrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+```
+
+## Install Lazydocker
+
+```bash
+brew install lazydocker
+```
+
 ## Software Installed
 
 - Chrome
