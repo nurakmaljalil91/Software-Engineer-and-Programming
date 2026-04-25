@@ -903,6 +903,13 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
 brew install lazydocker
 ```
 
+## Install Chromium
+
+```bash
+sudo apt update && sudo apt install chromium-browser
+export CHROME_BIN=/usr/bin/chromium-browser
+```
+
 ## Software Installed
 
 - Chrome
@@ -910,4 +917,14 @@ brew install lazydocker
 - GitHub Desktop
 - Steam Installer
 - VLC
-- Visual Studio Code
+- JetBrains Toolbox
+	- WebStorm
+	- Rider
+	- RustRover
+	- CLion
+
+## Give Permission to Development directory
+
+```bash
+sudo chown -R $USER:$USER /home/amal/Developments/CerxosWebSystem
+```
