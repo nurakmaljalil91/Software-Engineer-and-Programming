@@ -79,6 +79,25 @@ Watch mode enabled. Watching for file changes...NOTE: Raw file sizes d
 
 And now you can visit the path in `Local` (e.g., `http://localhost:4200`) to see your application.
 
+## Upgrade Angular Version
+
+- Update CLI and Core
+
+```bash
+ng update @angular/core @angular/cli
+```
+
+- Update Tailwind CSS
+
+```bash
+npm install tailwindcss@latest @tailwindcss/postcss@latest postcss@latest
+```
+
+- Update native Federation
+
+```bash
+ng update @angular-architects/native-federation
+```
 ## Angular Best Practices
 
 Generate environments

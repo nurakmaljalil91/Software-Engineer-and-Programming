@@ -910,6 +910,11 @@ sudo apt update && sudo apt install chromium-browser
 export CHROME_BIN=/usr/bin/chromium-browser
 ```
 
+## Install Atuin
+
+```bash
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+```
 ## Software Installed
 
 - Chrome
