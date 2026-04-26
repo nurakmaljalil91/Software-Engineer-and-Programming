@@ -910,6 +910,33 @@ sudo apt update && sudo apt install chromium-browser
 export CHROME_BIN=/usr/bin/chromium-browser
 ```
 
+## Install Google Chrome
+
+- Download latest google chrome `.deb` package
+
+```bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+
+- Install the package
+
+```bash
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
+
+- Verify installation
+
+```bash
+which google-chrome
+```
+
+- Clean up
+
+```bash
+rm google-chrome-stable_current_amd64.deb
+```
+
+
 ## Install Atuin
 
 ```bash
@@ -917,7 +944,6 @@ curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 ```
 ## Software Installed
 
-- Chrome
 - [[Obsidian]]
 - GitHub Desktop
 - Steam Installer
