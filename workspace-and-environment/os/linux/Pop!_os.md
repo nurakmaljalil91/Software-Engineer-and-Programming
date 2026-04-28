@@ -942,6 +942,19 @@ rm google-chrome-stable_current_amd64.deb
 ```bash
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 ```
+
+## Install 7zip
+
+```bash
+sudo apt update 
+sudo apt install p7zip-full
+```
+
+- Usage
+
+```bash
+7z x filename.7z
+```
 ## Software Installed
 
 - [[Obsidian]]
