@@ -38,6 +38,32 @@ ROLLBACK TO savepoint1;
 COMMIT;
 ```
 
+- Using variable
+
+```sql
+-- 1. Define the variable for this session
+SET session my.vars.order_id = '1-123282263993';
+
+-- 2. Use it in your SELECT
+SELECT * FROM public."Claims" 
+WHERE "OrderId" = current_setting('my.vars.order_id');
+
+BEGIN;
+
+-- 3. Use it in your UPDATE
+UPDATE public."Claims"
+SET "RulpaymentStatus" = 'To Review'
+WHERE "OrderId" = current_setting('my.vars.order_id');
+
+SAVEPOINT savepoint1;
+
+-- 4. Verify again
+SELECT * FROM public."Claims" 
+WHERE "OrderId" = current_setting('my.vars.order_id');
+
+-- ROLLBACK TO savepoint1;
+-- COMMIT;```
+
 ## Using Transaction in .NET (Npgsql)
 
 ```csharp
