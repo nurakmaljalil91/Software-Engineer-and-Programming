@@ -5,7 +5,7 @@ tags:
   - linux
   - pop_os
 created: 2026-04-11
-updated: 2026-04-23
+updated: 2026-05-03
 status: active
 ---
 ## Installing PopOS 
@@ -481,6 +481,7 @@ sudo apt install btop
 ```bash
 sudo apt install git-delta
 ```
+
 - run this
 
 ```bash
@@ -526,6 +527,7 @@ curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/lates
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 ```
+
 - verify
 
 ```bash
@@ -955,13 +957,63 @@ sudo apt install p7zip-full
 ```bash
 7z x filename.7z
 ```
+
+## Install Ghostty
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"
+```
+
+## Install Zellij
+
+```bash
+cargo install --locked zellij
+```
+
+## Install Multipass
+
+- Multipass is a lightweight VM manager for [[Linux]], [[Windows]] and [[macOS]]. It's designed for developers who want to spin up a fresh [[Ubuntu]] environment with a single command
+
+```bash
+sudo snap install multipass
+```
+
+- To find all [[Ubuntu]] version
+
+```bash
+multipass find
+```
+
+- To start:
+
+```bash
+multipass launch --name dev-droplet
+```
+
+- or for spec:
+
+```bash
+multipass launch noble --name dev-droplet --cpus 2 --memory 1G --disk 25G
+```
+
+- Enter instance:
+
+```bash
+multipass shell dev-droplet
+```
+
+- To remove it
+
+```bash
+multipass delete --purge dev-droplet
+```
 ## Software Installed
 
 - [[Obsidian]]
-- GitHub Desktop
+- [[GitHub]] Desktop
 - Steam Installer
 - VLC
-- JetBrains Toolbox
+- [[JetBrains]] Toolbox
 	- WebStorm
 	- Rider
 	- RustRover
