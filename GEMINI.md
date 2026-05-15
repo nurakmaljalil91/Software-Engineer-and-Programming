@@ -1,7 +1,5 @@
 # GEMINI.md
 
-this is testing
-
 ## Directory Overview
 This directory is an **Obsidian Vault** serving as a comprehensive personal knowledge base for software engineering and programming. It contains structured notes, references, and code snippets covering a wide range of topics, including:
 - **Programming Languages:** C++, C#, Python, JavaScript/TypeScript, Go, Rust, Java.

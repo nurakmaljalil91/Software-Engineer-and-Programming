@@ -4,9 +4,14 @@ category: linux
 tags:
   - linux
 created: 2026-03-28
-updated: 2026-03-28
+updated: 2026-05-14
 status: active
 ---
+
+## Distros
+
+- [[Pop!_os]] — previous OS on HP ZBook Power G9
+- [[CachyOS]] — current OS on HP ZBook Power G9 (Arch-based, Hyprland + GRUB)
 ## List all installed packages on an Ubuntu
 
 To list all installed packages on an Ubuntu system, you can use the following command:
