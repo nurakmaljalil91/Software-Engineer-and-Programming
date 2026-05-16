@@ -15,7 +15,7 @@ status: active
 
 CachyOS is an Arch-based Linux distribution optimized for performance using the BORE scheduler and PGO/LTO-optimized packages. This note covers installation and post-install setup on the **HP ZBook Power G9** with GRUB as the bootloader and Hyprland as the desktop.
 
-Related: [[Linux]], [[Pop!_os]], [[Configure Hyprland]]
+Related: [[Linux]], [[Pop!_os]], [[Configure Hyprland]], [[Pacman Basic Usage]]
 
 ## Installing CachyOS
 
@@ -337,8 +337,28 @@ sudo pacman -Syu tmux
 ```
 ## Install Rust
 
+- Remove the existing [[Rust]]
+
+```bash
+sudo pacman -Rnd rust
+```
+
+- Check if [[Rust]] cargo still exists
+
+```bash
+which cargo
+```
+
+- Install [[Rust]]
+
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+- Refresh `zhs` environment
+
+```bash
+source $HOME/.cargo/env
 ```
 
 - Add to `~/.config/fish/config.fish`:
