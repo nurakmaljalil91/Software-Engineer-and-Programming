@@ -7,7 +7,7 @@ tags:
   - arch
   - hyprland
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-05-16
 status: active
 ---
 
@@ -15,7 +15,7 @@ status: active
 
 CachyOS is an Arch-based Linux distribution optimized for performance using the BORE scheduler and PGO/LTO-optimized packages. This note covers installation and post-install setup on the **HP ZBook Power G9** with GRUB as the bootloader and Hyprland as the desktop.
 
-Related: [[Linux]], [[Pop!_os]]
+Related: [[Linux]], [[Pop!_os]], [[Configure Hyprland]]
 
 ## Installing CachyOS
 
@@ -98,7 +98,7 @@ cd yay && makepkg -si
 
 ## Hyprland Configuration
 
-Config lives at `~/.config/hypr/hyprland.conf`.
+Config lives at `~/.config/hypr/hyprland.conf`. For a detailed breakdown of the configuration settings, see [[Configure Hyprland]].
 
 ```bash
 nvim ~/.config/hypr/hyprland.conf
@@ -220,6 +220,27 @@ sudo pacman -S grim
 
 ```bash
 sudo pacman -S swaybg
+```
+
+## Install Helium Browser
+
+```bash
+sudo pacman -S helium-browser-bin
+```
+
+### Configure Wayland for Helium
+
+Create the configuration file to enable native Wayland support:
+
+```bash
+nvim ~/.config/helium-browser-flags.conf
+```
+
+Add the following flags:
+
+```text
+--enable-features=UseOzonePlatform
+--ozone-platform=wayland
 ```
 
 ## Install Fish Shell
@@ -347,8 +368,15 @@ dotnet --version
 ## Install Docker
 
 ```bash
+# install docker and docker-compose
 sudo pacman -S docker docker-compose
-sudo systemctl enable --now docker
+# Start the docker
+sudo systemctl start docker.service
+# To enable the boot
+sudo systemctl enable docker.service
+# create a docker group
+sudo groupadd docker
+
 sudo usermod -aG docker $USER
 newgrp docker
 ```
@@ -433,6 +461,22 @@ yay -S visual-studio-code-bin
 ```bash
 yay -S google-chrome
 ```
+
+### Configure Wayland for Google Chrome
+
+Create the configuration file to enable native Wayland support:
+
+```bash
+nvim ~/.config/chrome-flags.conf
+```
+
+Add the following flags:
+
+```text
+--ozone-platform-hint=auto
+--enable-features=WaylandWindowDecorations
+```
+
 
 ## Install Claude Code
 
