@@ -96,7 +96,7 @@ SORT file.name ASC
 ## 🛠 Workspace & Environment
 
 - **Operating Systems**: [[Windows]], [[Linux]] ([[Pop!_os]], [[CachyOS]]), [[Ubuntu Server]], [[WSL]].
-- **Programming Tools**: [[Git]], [[CMake]], [[Neovim]], [[Visual Studio Code]], [[PowerShell]], [[Configure Hyprland]], [[Pacman Basic Usage]].
+- **Programming Tools**: [[Git]], [[CMake]], [[Neovim]], [[Visual Studio Code]], [[PowerShell]], [[Tmux]], [[Configure Hyprland]], [[Pacman Basic Usage]].
 - **AI Tools**: [[AI Tools]] ([[Claude Code]], [[GitHub Copilot CLI]], [[Codex]], [[Gemini CLI]]).
 - **Documentation**: Markdown, JIRA, Confluence, [[Changelog Template]], [[README Template]].
 
