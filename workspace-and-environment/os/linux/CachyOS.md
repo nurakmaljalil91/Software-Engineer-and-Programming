@@ -455,6 +455,19 @@ sudo pacman -S thunar
 sudo pacman -S imv
 ```
 
+## Install mpv
+
+- For video viewer
+
+```bash
+sudo pacman -S mpv
+```
+
+```bash
+xdg-mime default mpv.desktop video/mp4
+xdg-mime default mpv.desktop video/x-matroska
+xdg-mime default mpv.desktop video/webm
+```
 ## Install Swappy
 
 - For taking screenshot
@@ -475,6 +488,32 @@ sudo pacman -S fastfetch
 sudo pacman -S yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick
 ```
 
+
+## Install Tool for Clipboard
+
+```bash
+sudo pacman -S cliphist wl-clipboard
+```
+
+- Start background daemon
+
+```bash
+nvim ~/.config/hypr/hyprland.conf
+```
+
+- Paste this
+
+```toml
+exec-once = wl-paste --type text --watch cliphist store # Stores text data
+exec-once = wl-paste --type image --watch cliphist store # Stores image data
+```
+
+- Add hotkey
+
+```toml
+# Using Ctrl + Alt + V (CONTROL ALT, V)
+bind = CONTROL ALT, V, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy
+```
 ## Install Atuin
 
 ```bash
@@ -552,6 +591,12 @@ export OPENAI_API_KEY="your-key-here"
 
 ```bash
 sudo snap install multipass
+```
+
+## Install Steam
+
+```bash
+sudo pacman -S cachyos-gaming-meta cachyos-gaming-applications
 ```
 
 ## NVIDIA Setup (if using dedicated GPU)
