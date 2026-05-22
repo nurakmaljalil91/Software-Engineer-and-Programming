@@ -439,6 +439,30 @@ yay -S lazydocker-bin
 sudo pacman -S btop
 ```
 
+## Install Thunar
+
+- File manager
+
+```bash
+sudo pacman -S thunar
+```
+
+## Install imv
+
+- For image viewer
+
+```bash
+sudo pacman -S imv
+```
+
+## Install Swappy
+
+- For taking screenshot
+
+```bash
+sudo pacman -S swappy
+```
+
 ## Install Fastfetch
 
 ```bash
