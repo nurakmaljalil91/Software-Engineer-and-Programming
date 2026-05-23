@@ -15,7 +15,7 @@ status: active
 
 Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on appearance. This note explains the configuration found in `~/.config/hypr/hyprland.conf`, specifically optimized for NVIDIA hybrid graphics (Intel + NVIDIA).
 
-Related: [[CachyOS]], [[Linux]], [[Configure WezTerm]]
+Related: [[CachyOS]], [[Linux]], [[Configure WezTerm]], [[Connect to WiFi in CachyOS]]
 
 ## Configuration Analysis
 

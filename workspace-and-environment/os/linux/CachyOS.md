@@ -15,7 +15,7 @@ status: active
 
 CachyOS is an Arch-based Linux distribution optimized for performance using the BORE scheduler and PGO/LTO-optimized packages. This note covers installation and post-install setup on the **HP ZBook Power G9** with GRUB as the bootloader and Hyprland as the desktop.
 
-Related: [[Linux]], [[Pop!_os]], [[Configure Hyprland]], [[Pacman Basic Usage]]
+Related: [[Linux]], [[Pop!_os]], [[Configure Hyprland]], [[Pacman Basic Usage]], [[Connect to WiFi in CachyOS]]
 
 ## Installing CachyOS
 
