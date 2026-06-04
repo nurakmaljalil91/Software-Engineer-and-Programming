@@ -7,7 +7,7 @@ tags:
   - arch
   - hyprland
 created: 2026-05-14
-updated: 2026-06-03
+updated: 2026-06-04
 status: active
 ---
 
@@ -548,7 +548,18 @@ stow --version
 ## Install Visual Studio Code
 
 ```bash
-yay -S visual-studio-code-bin
+paru -S visual-studio-code-bin
+```
+
+### Configure Wayland for VS Code
+
+To enable native Wayland support, open VS Code, press `Ctrl+Shift+P`, search for **"Preferences: Configure Runtime Arguments"**, and add the following to `argv.json`:
+
+```json
+{
+  "password-store": "gnome-libsecret",
+  "ozone-platform-hint": "auto"
+}
 ```
 
 ## Install JetBrains Toolbox
