@@ -7,7 +7,7 @@ tags:
   - arch
   - hyprland
 created: 2026-05-14
-updated: 2026-05-16
+updated: 2026-06-03
 status: active
 ---
 
@@ -329,6 +329,18 @@ fnm default lts-latest
 node -v && npm -v
 ```
 
+## Install Bun
+
+```bash
+sudo pacman -S bun
+```
+
+Alternative via AUR:
+
+```bash
+paru -S bun-bin
+```
+
 
 ## Install Tmux
 
@@ -539,6 +551,12 @@ stow --version
 yay -S visual-studio-code-bin
 ```
 
+## Install JetBrains Toolbox
+
+```bash
+paru -S jetbrains-toolbox
+```
+
 ## Install Google Chrome
 
 ```bash
@@ -648,14 +666,3 @@ hostnamectl
 sudo chown -R $USER:$USER /home/amal/Developments
 ```
 
-## Software Installed
-
-- [[Obsidian]]
-- [[GitHub]] Desktop — `yay -S github-desktop`
-- Steam — `sudo pacman -S steam`
-- VLC — `sudo pacman -S vlc`
-- [[JetBrains]] Toolbox — `yay -S jetbrains-toolbox`
-  - WebStorm
-  - Rider
-  - RustRover
-  - CLion
