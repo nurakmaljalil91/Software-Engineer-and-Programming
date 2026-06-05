@@ -540,6 +540,8 @@ atuin init fish | source
 
 ## Install Stow
 
+- [[GNU Stow]] — Manage dotfiles with symlinks.
+
 ```bash
 sudo pacman -S stow
 stow --version

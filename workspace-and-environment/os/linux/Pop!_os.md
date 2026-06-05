@@ -659,6 +659,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## Install Stow
 
+- [[GNU Stow]] — Manage dotfiles with symlinks.
 - Stow is use to centralized all the dotfiles
 
 ```bash

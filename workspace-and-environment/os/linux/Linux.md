@@ -56,3 +56,7 @@ $ ip addr show
 ```bash
 sudo shutdown now
 ```
+
+## Dotfiles Management
+
+- [[GNU Stow]] — Manage dotfiles with symlinks.
