@@ -679,3 +679,43 @@ hostnamectl
 sudo chown -R $USER:$USER /home/amal/Developments
 ```
 
+## Daemon Keyring
+
+```bash
+sudo pacman -S gnome-keyring libsecret
+```
+
+- Configure `hyprland.conf`
+
+```ini
+exec-once = gnome-keyring-daemon --start --components=secrets
+```
+
+> `--components=secrets` only starts the Secret Service API (used by browsers, VS Code, Electron apps via `libsecret`). It does **not** start the `ssh` or `pkcs11` components — if you also want gnome-keyring managing SSH keys, add `ssh` to the list (`--components=secrets,ssh`) and point `SSH_AUTH_SOCK` at its socket instead of another agent (e.g. WezTerm's built-in agent, if you're using [[Configure Hyprland]] with a terminal that spawns its own).
+
+- For Electron apps to find it automatically, add this to your environment file (usually `~/.config/environment.d/env.conf` or wherever you export environment variables for Hyprland):
+
+```ini
+env = XDG_CURRENT_DESKTOP,Hyprland
+```
+
+- If logging in through SDDM, `pam_gnome_keyring.so` in `/etc/pam.d/sddm` (and `sddm-autologin`) auto-unlocks the login keyring at session start — check it's present with `grep keyring /etc/pam.d/sddm`. This is separate from, and complementary to, the `exec-once` line above.
+
+- CachyOS also ships KWallet (`kwalletd6`), which can register the same `org.freedesktop.secrets` D-Bus name. As long as the `exec-once` line above runs before anything triggers KWallet, gnome-keyring wins the name and there's no conflict — but if secrets ever seem to vanish, check which one owns the name.
+
+### Verify It's Working
+
+Restart Hyprland (or `hyprctl dispatch exec "gnome-keyring-daemon --start --components=secrets"` to test without a full restart), then confirm the daemon is actually running and can store/retrieve a secret round-trip:
+
+```bash
+# Confirm the process and D-Bus name
+ps aux | grep gnome-keyring
+busctl --user list | grep org.freedesktop.secrets
+
+# Round-trip test
+echo -n "testvalue" | secret-tool store --label="test-secret" testattr keyringcheck
+secret-tool lookup testattr keyringcheck   # should print: testvalue
+secret-tool clear testattr keyringcheck    # cleanup
+```
+
+If `secret-tool lookup` echoes the value back, the keyring is set up and functioning correctly.
