@@ -15,6 +15,40 @@ PostgreSQL, also known as Postgres, is a free and open-source relational databas
 
 Download PostgreSQL from [https://www.postgresql.org/download](https://www.postgresql.org/download)
 
+## Install PostgreSQL on CachyOS / Arch
+
+- In [[CachyOS]]
+
+```bash
+sudo pacman -Syu postgresql
+```
+
+- Initialize the database cluster (run once, as the `postgres` system user):
+
+```bash
+sudo -iu postgres initdb --locale=C.UTF-8 --encoding=UTF8 -D /var/lib/postgres/data --auth-local=peer --auth-host=scram-sha-256
+```
+
+- Enable and start the service:
+
+```bash
+sudo systemctl enable --now postgresql
+sudo systemctl status postgresql
+```
+
+- Connect locally as the `postgres` user via `psql`:
+
+```bash
+sudo -iu postgres psql
+```
+
+- Or install [pgcli](https://www.pgcli.com/) for an autocomplete-friendly client and connect over TCP:
+
+```bash
+sudo pacman -S pgcli
+pgcli -h localhost -p 5432 -U postgres -d postgres
+```
+
 ## Backup data from Remote Database server to local file
 
 ```bash
