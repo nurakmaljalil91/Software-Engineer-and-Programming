@@ -39,8 +39,10 @@ C# and the .NET ecosystem provide a robust foundation for backend development. Â
 
 - [[Ref vs Value in CSharp]]
 - [[Auto-Property in CSharp]]
+- [[Async vs Sync in CSharp]]
 - [[Dependency Injection in DotNET]]
 ## Algorithms
 
 - [[Bubble Sort in CSharp]]
+
 

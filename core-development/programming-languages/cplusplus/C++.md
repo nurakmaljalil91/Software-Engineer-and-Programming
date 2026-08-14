@@ -31,6 +31,7 @@ g++ main.cpp -o main
 - [[Pass By Reference VS Pass By Value]]
 - [[Friend Class in C++]]
 - [[Explicit and Implicit conversion]]
+- [[Thread in C++]]
 ## Setup C++ Project
 
 - [[Setup C++ Project with CMAKE]]

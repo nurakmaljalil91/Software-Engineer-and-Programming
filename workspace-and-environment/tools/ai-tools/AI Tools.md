@@ -13,6 +13,7 @@ AI-powered developer tools that assist with coding, code generation, and CLI wor
 
 ## Tools
 
+- [[Antigravity CLI]] - Google's AI-first terminal agent (`agy`) and successor to Gemini CLI.
 - [[Claude Code]] - Anthropic's agentic coding CLI powered by Claude.
 - [[GitHub Copilot CLI]] - AI pair programmer integrated into the terminal.
 - [[Codex]] - OpenAI's code generation model and CLI.
