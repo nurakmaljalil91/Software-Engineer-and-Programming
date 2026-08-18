@@ -33,6 +33,7 @@ SORT file.name ASC
 ### Programming Concepts
 - [[SOLID Principle]] - Five Object-Oriented design guidelines that help develop software that's easier to maintain, understand and extend. 
 - [[Outbox Pattern]] 
+- [[Monad in CSharp]] - Functional design pattern for safe composition, chaining, and railway-oriented error handling. 
 
 ### Algorithms & Data Structures
 - [[Algorithms]] Review of fundamental algorithms and data‑structure patterns.
@@ -70,6 +71,7 @@ SORT file.name ASC
 - MongoDB NoSQL database for modern applications.
 - Redis In-memory data structure store used as a database, cache, and message broker.
 - MySQL Popular relational database management system.
+- [[Vector Database]] High-dimensional vector storage and similarity search for AI context and RAG.
 
 ### DevOps and CI/CD
 - Kubernetes For container orchestration.
