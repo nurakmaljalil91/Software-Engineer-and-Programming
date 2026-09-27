@@ -18,3 +18,5 @@ AI-powered developer tools that assist with coding, code generation, and CLI wor
 - [[GitHub Copilot CLI]] - AI pair programmer integrated into the terminal.
 - [[Codex]] - OpenAI's code generation model and CLI.
 - [[Gemini CLI]] - Google's AI assistant for the terminal.
+- [[Running Local LLMs on Linux]] - Guide to serving and running local open-weights LLMs via Ollama with CUDA acceleration.
+

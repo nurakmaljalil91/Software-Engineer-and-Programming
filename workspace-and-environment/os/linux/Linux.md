@@ -57,6 +57,10 @@ $ ip addr show
 sudo shutdown now
 ```
 
+## Display Manager & Desktop Setup
+
+- [[SDDM Customization]] — Customizing SDDM display manager and `sddm-astronaut-theme`.
+
 ## Dotfiles Management
 
 - [[GNU Stow]] — Manage dotfiles with symlinks.

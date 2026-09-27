@@ -79,6 +79,7 @@ SORT file.name ASC
 - Jenkins Continuous Integration and Continuous Deployment tool.
 - Ansible For automation and configuration management.
 - Terraform Infrastructure as Code tool for provisioning cloud resources.
+- [[HP ZBook Homelab Setup with CachyOS and Hyprland]] Complete guide for setting up HP ZBook as a homelab server with CachyOS and Hyprland.
 - GitHub Action
 
 ### Cloud Services
@@ -98,8 +99,8 @@ SORT file.name ASC
 ## 🛠 Workspace & Environment
 
 - **Operating Systems**: [[Windows]], [[Linux]] ([[Pop!_os]], [[CachyOS]]), [[Ubuntu Server]], [[WSL]].
-- **Programming Tools**: [[Git]], [[GNU Stow]], [[CMake]], [[Neovim]], [[Visual Studio Code]], [[PowerShell]], [[Tmux]], [[Configure Hyprland]], [[Pacman Basic Usage]].
-- **AI Tools**: [[AI Tools]] ([[Antigravity CLI]], [[Claude Code]], [[GitHub Copilot CLI]], [[Codex]], [[Gemini CLI]]).
+- **Programming Tools**: [[Git]], [[GNU Stow]], [[CMake]], [[Neovim]], [[Visual Studio Code]], [[PowerShell]], [[Tmux]], [[Configure Hyprland]], [[SDDM Customization]], [[Pacman Basic Usage]].
+- **AI Tools**: [[AI Tools]] ([[Running Local LLMs on Linux]], [[Antigravity CLI]], [[Claude Code]], [[GitHub Copilot CLI]], [[Codex]], [[Gemini CLI]]).
 - **Documentation**: Markdown, JIRA, Confluence, [[Changelog Template]], [[README Template]].
 
 ## Notes 
