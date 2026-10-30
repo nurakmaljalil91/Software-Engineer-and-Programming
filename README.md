@@ -94,6 +94,7 @@ SORT file.name ASC
 ## 🌐 Frameworks & Ecosystems
 
 - **Web Frameworks**: [[React]], [[Vue]], [[Angular]], Express.js, GraphQL.
+- **Mobile Frameworks**: [[Flutter]] ([[Setup Mobile App Development with Flutter and Android Studio]]).
 - **.NET Ecosystem**: [[DotNET]], [[EF Core]].
 
 ## 🛠 Workspace & Environment
